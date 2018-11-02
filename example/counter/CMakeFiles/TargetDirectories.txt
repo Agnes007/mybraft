@@ -1,4 +1,4 @@
-/home/agnes/Documents/braft/example/counter/CMakeFiles/rebuild_cache.dir
-/home/agnes/Documents/braft/example/counter/CMakeFiles/counter_server.dir
-/home/agnes/Documents/braft/example/counter/CMakeFiles/edit_cache.dir
-/home/agnes/Documents/braft/example/counter/CMakeFiles/counter_client.dir
+/home/agnes/Documents/mybraft/example/counter/CMakeFiles/rebuild_cache.dir
+/home/agnes/Documents/mybraft/example/counter/CMakeFiles/counter_server.dir
+/home/agnes/Documents/mybraft/example/counter/CMakeFiles/edit_cache.dir
+/home/agnes/Documents/mybraft/example/counter/CMakeFiles/counter_client.dir

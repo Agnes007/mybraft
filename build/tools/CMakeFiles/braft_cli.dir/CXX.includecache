@@ -44,7 +44,7 @@ braft/enum.pb.h
 braft/errno.pb.h
 ../src/braft/braft/errno.pb.h
 
-/home/agnes/Documents/braft/tools/braft_cli.cpp
+/home/agnes/Documents/mybraft/tools/braft_cli.cpp
 map
 -
 gflags/gflags.h

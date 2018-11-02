@@ -48,7 +48,7 @@ done
 
 export TCMALLOC_SAMPLE_PARAMETER=524288
 
-${VALGRIND} ./counter_client \
+./counter_client \
         --add_percentage=${FLAGS_add_percentage} \
         --bthread_concurrency=${FLAGS_bthread_concurrency} \
         --conf="${raft_peers}" \

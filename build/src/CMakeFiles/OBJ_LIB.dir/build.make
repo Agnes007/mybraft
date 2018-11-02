@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/agnes/Documents/braft
+CMAKE_SOURCE_DIR = /home/agnes/Documents/mybraft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/agnes/Documents/braft/build
+CMAKE_BINARY_DIR = /home/agnes/Documents/mybraft/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/OBJ_LIB.dir/depend.make
@@ -59,16 +59,16 @@ include src/CMakeFiles/OBJ_LIB.dir/flags.make
 
 src/CMakeFiles/OBJ_LIB.dir/braft/replicator.cpp.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/braft/replicator.cpp.o: ../src/braft/replicator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/replicator.cpp.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/replicator.cpp.o -c /home/agnes/Documents/braft/src/braft/replicator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/replicator.cpp.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/replicator.cpp.o -c /home/agnes/Documents/mybraft/src/braft/replicator.cpp
 
 src/CMakeFiles/OBJ_LIB.dir/braft/replicator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/braft/replicator.cpp.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/src/braft/replicator.cpp > CMakeFiles/OBJ_LIB.dir/braft/replicator.cpp.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/src/braft/replicator.cpp > CMakeFiles/OBJ_LIB.dir/braft/replicator.cpp.i
 
 src/CMakeFiles/OBJ_LIB.dir/braft/replicator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/braft/replicator.cpp.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/src/braft/replicator.cpp -o CMakeFiles/OBJ_LIB.dir/braft/replicator.cpp.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/src/braft/replicator.cpp -o CMakeFiles/OBJ_LIB.dir/braft/replicator.cpp.s
 
 src/CMakeFiles/OBJ_LIB.dir/braft/replicator.cpp.o.requires:
 
@@ -83,16 +83,16 @@ src/CMakeFiles/OBJ_LIB.dir/braft/replicator.cpp.o.provides.build: src/CMakeFiles
 
 src/CMakeFiles/OBJ_LIB.dir/braft/snapshot_throttle.cpp.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/braft/snapshot_throttle.cpp.o: ../src/braft/snapshot_throttle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/snapshot_throttle.cpp.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/snapshot_throttle.cpp.o -c /home/agnes/Documents/braft/src/braft/snapshot_throttle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/snapshot_throttle.cpp.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/snapshot_throttle.cpp.o -c /home/agnes/Documents/mybraft/src/braft/snapshot_throttle.cpp
 
 src/CMakeFiles/OBJ_LIB.dir/braft/snapshot_throttle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/braft/snapshot_throttle.cpp.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/src/braft/snapshot_throttle.cpp > CMakeFiles/OBJ_LIB.dir/braft/snapshot_throttle.cpp.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/src/braft/snapshot_throttle.cpp > CMakeFiles/OBJ_LIB.dir/braft/snapshot_throttle.cpp.i
 
 src/CMakeFiles/OBJ_LIB.dir/braft/snapshot_throttle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/braft/snapshot_throttle.cpp.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/src/braft/snapshot_throttle.cpp -o CMakeFiles/OBJ_LIB.dir/braft/snapshot_throttle.cpp.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/src/braft/snapshot_throttle.cpp -o CMakeFiles/OBJ_LIB.dir/braft/snapshot_throttle.cpp.s
 
 src/CMakeFiles/OBJ_LIB.dir/braft/snapshot_throttle.cpp.o.requires:
 
@@ -107,16 +107,16 @@ src/CMakeFiles/OBJ_LIB.dir/braft/snapshot_throttle.cpp.o.provides.build: src/CMa
 
 src/CMakeFiles/OBJ_LIB.dir/braft/file_service.cpp.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/braft/file_service.cpp.o: ../src/braft/file_service.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/file_service.cpp.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/file_service.cpp.o -c /home/agnes/Documents/braft/src/braft/file_service.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/file_service.cpp.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/file_service.cpp.o -c /home/agnes/Documents/mybraft/src/braft/file_service.cpp
 
 src/CMakeFiles/OBJ_LIB.dir/braft/file_service.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/braft/file_service.cpp.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/src/braft/file_service.cpp > CMakeFiles/OBJ_LIB.dir/braft/file_service.cpp.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/src/braft/file_service.cpp > CMakeFiles/OBJ_LIB.dir/braft/file_service.cpp.i
 
 src/CMakeFiles/OBJ_LIB.dir/braft/file_service.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/braft/file_service.cpp.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/src/braft/file_service.cpp -o CMakeFiles/OBJ_LIB.dir/braft/file_service.cpp.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/src/braft/file_service.cpp -o CMakeFiles/OBJ_LIB.dir/braft/file_service.cpp.s
 
 src/CMakeFiles/OBJ_LIB.dir/braft/file_service.cpp.o.requires:
 
@@ -131,16 +131,16 @@ src/CMakeFiles/OBJ_LIB.dir/braft/file_service.cpp.o.provides.build: src/CMakeFil
 
 src/CMakeFiles/OBJ_LIB.dir/braft/storage.cpp.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/braft/storage.cpp.o: ../src/braft/storage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/storage.cpp.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/storage.cpp.o -c /home/agnes/Documents/braft/src/braft/storage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/storage.cpp.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/storage.cpp.o -c /home/agnes/Documents/mybraft/src/braft/storage.cpp
 
 src/CMakeFiles/OBJ_LIB.dir/braft/storage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/braft/storage.cpp.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/src/braft/storage.cpp > CMakeFiles/OBJ_LIB.dir/braft/storage.cpp.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/src/braft/storage.cpp > CMakeFiles/OBJ_LIB.dir/braft/storage.cpp.i
 
 src/CMakeFiles/OBJ_LIB.dir/braft/storage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/braft/storage.cpp.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/src/braft/storage.cpp -o CMakeFiles/OBJ_LIB.dir/braft/storage.cpp.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/src/braft/storage.cpp -o CMakeFiles/OBJ_LIB.dir/braft/storage.cpp.s
 
 src/CMakeFiles/OBJ_LIB.dir/braft/storage.cpp.o.requires:
 
@@ -155,16 +155,16 @@ src/CMakeFiles/OBJ_LIB.dir/braft/storage.cpp.o.provides.build: src/CMakeFiles/OB
 
 src/CMakeFiles/OBJ_LIB.dir/braft/builtin_service_impl.cpp.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/braft/builtin_service_impl.cpp.o: ../src/braft/builtin_service_impl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/builtin_service_impl.cpp.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/builtin_service_impl.cpp.o -c /home/agnes/Documents/braft/src/braft/builtin_service_impl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/builtin_service_impl.cpp.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/builtin_service_impl.cpp.o -c /home/agnes/Documents/mybraft/src/braft/builtin_service_impl.cpp
 
 src/CMakeFiles/OBJ_LIB.dir/braft/builtin_service_impl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/braft/builtin_service_impl.cpp.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/src/braft/builtin_service_impl.cpp > CMakeFiles/OBJ_LIB.dir/braft/builtin_service_impl.cpp.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/src/braft/builtin_service_impl.cpp > CMakeFiles/OBJ_LIB.dir/braft/builtin_service_impl.cpp.i
 
 src/CMakeFiles/OBJ_LIB.dir/braft/builtin_service_impl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/braft/builtin_service_impl.cpp.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/src/braft/builtin_service_impl.cpp -o CMakeFiles/OBJ_LIB.dir/braft/builtin_service_impl.cpp.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/src/braft/builtin_service_impl.cpp -o CMakeFiles/OBJ_LIB.dir/braft/builtin_service_impl.cpp.s
 
 src/CMakeFiles/OBJ_LIB.dir/braft/builtin_service_impl.cpp.o.requires:
 
@@ -179,16 +179,16 @@ src/CMakeFiles/OBJ_LIB.dir/braft/builtin_service_impl.cpp.o.provides.build: src/
 
 src/CMakeFiles/OBJ_LIB.dir/braft/file_system_adaptor.cpp.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/braft/file_system_adaptor.cpp.o: ../src/braft/file_system_adaptor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/file_system_adaptor.cpp.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/file_system_adaptor.cpp.o -c /home/agnes/Documents/braft/src/braft/file_system_adaptor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/file_system_adaptor.cpp.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/file_system_adaptor.cpp.o -c /home/agnes/Documents/mybraft/src/braft/file_system_adaptor.cpp
 
 src/CMakeFiles/OBJ_LIB.dir/braft/file_system_adaptor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/braft/file_system_adaptor.cpp.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/src/braft/file_system_adaptor.cpp > CMakeFiles/OBJ_LIB.dir/braft/file_system_adaptor.cpp.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/src/braft/file_system_adaptor.cpp > CMakeFiles/OBJ_LIB.dir/braft/file_system_adaptor.cpp.i
 
 src/CMakeFiles/OBJ_LIB.dir/braft/file_system_adaptor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/braft/file_system_adaptor.cpp.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/src/braft/file_system_adaptor.cpp -o CMakeFiles/OBJ_LIB.dir/braft/file_system_adaptor.cpp.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/src/braft/file_system_adaptor.cpp -o CMakeFiles/OBJ_LIB.dir/braft/file_system_adaptor.cpp.s
 
 src/CMakeFiles/OBJ_LIB.dir/braft/file_system_adaptor.cpp.o.requires:
 
@@ -203,16 +203,16 @@ src/CMakeFiles/OBJ_LIB.dir/braft/file_system_adaptor.cpp.o.provides.build: src/C
 
 src/CMakeFiles/OBJ_LIB.dir/braft/ballot_box.cpp.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/braft/ballot_box.cpp.o: ../src/braft/ballot_box.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/ballot_box.cpp.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/ballot_box.cpp.o -c /home/agnes/Documents/braft/src/braft/ballot_box.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/ballot_box.cpp.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/ballot_box.cpp.o -c /home/agnes/Documents/mybraft/src/braft/ballot_box.cpp
 
 src/CMakeFiles/OBJ_LIB.dir/braft/ballot_box.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/braft/ballot_box.cpp.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/src/braft/ballot_box.cpp > CMakeFiles/OBJ_LIB.dir/braft/ballot_box.cpp.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/src/braft/ballot_box.cpp > CMakeFiles/OBJ_LIB.dir/braft/ballot_box.cpp.i
 
 src/CMakeFiles/OBJ_LIB.dir/braft/ballot_box.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/braft/ballot_box.cpp.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/src/braft/ballot_box.cpp -o CMakeFiles/OBJ_LIB.dir/braft/ballot_box.cpp.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/src/braft/ballot_box.cpp -o CMakeFiles/OBJ_LIB.dir/braft/ballot_box.cpp.s
 
 src/CMakeFiles/OBJ_LIB.dir/braft/ballot_box.cpp.o.requires:
 
@@ -227,16 +227,16 @@ src/CMakeFiles/OBJ_LIB.dir/braft/ballot_box.cpp.o.provides.build: src/CMakeFiles
 
 src/CMakeFiles/OBJ_LIB.dir/braft/cli.cpp.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/braft/cli.cpp.o: ../src/braft/cli.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/cli.cpp.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/cli.cpp.o -c /home/agnes/Documents/braft/src/braft/cli.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/cli.cpp.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/cli.cpp.o -c /home/agnes/Documents/mybraft/src/braft/cli.cpp
 
 src/CMakeFiles/OBJ_LIB.dir/braft/cli.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/braft/cli.cpp.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/src/braft/cli.cpp > CMakeFiles/OBJ_LIB.dir/braft/cli.cpp.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/src/braft/cli.cpp > CMakeFiles/OBJ_LIB.dir/braft/cli.cpp.i
 
 src/CMakeFiles/OBJ_LIB.dir/braft/cli.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/braft/cli.cpp.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/src/braft/cli.cpp -o CMakeFiles/OBJ_LIB.dir/braft/cli.cpp.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/src/braft/cli.cpp -o CMakeFiles/OBJ_LIB.dir/braft/cli.cpp.s
 
 src/CMakeFiles/OBJ_LIB.dir/braft/cli.cpp.o.requires:
 
@@ -251,16 +251,16 @@ src/CMakeFiles/OBJ_LIB.dir/braft/cli.cpp.o.provides.build: src/CMakeFiles/OBJ_LI
 
 src/CMakeFiles/OBJ_LIB.dir/braft/configuration_manager.cpp.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/braft/configuration_manager.cpp.o: ../src/braft/configuration_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/configuration_manager.cpp.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/configuration_manager.cpp.o -c /home/agnes/Documents/braft/src/braft/configuration_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/configuration_manager.cpp.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/configuration_manager.cpp.o -c /home/agnes/Documents/mybraft/src/braft/configuration_manager.cpp
 
 src/CMakeFiles/OBJ_LIB.dir/braft/configuration_manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/braft/configuration_manager.cpp.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/src/braft/configuration_manager.cpp > CMakeFiles/OBJ_LIB.dir/braft/configuration_manager.cpp.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/src/braft/configuration_manager.cpp > CMakeFiles/OBJ_LIB.dir/braft/configuration_manager.cpp.i
 
 src/CMakeFiles/OBJ_LIB.dir/braft/configuration_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/braft/configuration_manager.cpp.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/src/braft/configuration_manager.cpp -o CMakeFiles/OBJ_LIB.dir/braft/configuration_manager.cpp.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/src/braft/configuration_manager.cpp -o CMakeFiles/OBJ_LIB.dir/braft/configuration_manager.cpp.s
 
 src/CMakeFiles/OBJ_LIB.dir/braft/configuration_manager.cpp.o.requires:
 
@@ -275,16 +275,16 @@ src/CMakeFiles/OBJ_LIB.dir/braft/configuration_manager.cpp.o.provides.build: src
 
 src/CMakeFiles/OBJ_LIB.dir/braft/closure_queue.cpp.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/braft/closure_queue.cpp.o: ../src/braft/closure_queue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/closure_queue.cpp.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/closure_queue.cpp.o -c /home/agnes/Documents/braft/src/braft/closure_queue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/closure_queue.cpp.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/closure_queue.cpp.o -c /home/agnes/Documents/mybraft/src/braft/closure_queue.cpp
 
 src/CMakeFiles/OBJ_LIB.dir/braft/closure_queue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/braft/closure_queue.cpp.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/src/braft/closure_queue.cpp > CMakeFiles/OBJ_LIB.dir/braft/closure_queue.cpp.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/src/braft/closure_queue.cpp > CMakeFiles/OBJ_LIB.dir/braft/closure_queue.cpp.i
 
 src/CMakeFiles/OBJ_LIB.dir/braft/closure_queue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/braft/closure_queue.cpp.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/src/braft/closure_queue.cpp -o CMakeFiles/OBJ_LIB.dir/braft/closure_queue.cpp.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/src/braft/closure_queue.cpp -o CMakeFiles/OBJ_LIB.dir/braft/closure_queue.cpp.s
 
 src/CMakeFiles/OBJ_LIB.dir/braft/closure_queue.cpp.o.requires:
 
@@ -299,16 +299,16 @@ src/CMakeFiles/OBJ_LIB.dir/braft/closure_queue.cpp.o.provides.build: src/CMakeFi
 
 src/CMakeFiles/OBJ_LIB.dir/braft/route_table.cpp.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/braft/route_table.cpp.o: ../src/braft/route_table.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/route_table.cpp.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/route_table.cpp.o -c /home/agnes/Documents/braft/src/braft/route_table.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/route_table.cpp.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/route_table.cpp.o -c /home/agnes/Documents/mybraft/src/braft/route_table.cpp
 
 src/CMakeFiles/OBJ_LIB.dir/braft/route_table.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/braft/route_table.cpp.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/src/braft/route_table.cpp > CMakeFiles/OBJ_LIB.dir/braft/route_table.cpp.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/src/braft/route_table.cpp > CMakeFiles/OBJ_LIB.dir/braft/route_table.cpp.i
 
 src/CMakeFiles/OBJ_LIB.dir/braft/route_table.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/braft/route_table.cpp.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/src/braft/route_table.cpp -o CMakeFiles/OBJ_LIB.dir/braft/route_table.cpp.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/src/braft/route_table.cpp -o CMakeFiles/OBJ_LIB.dir/braft/route_table.cpp.s
 
 src/CMakeFiles/OBJ_LIB.dir/braft/route_table.cpp.o.requires:
 
@@ -323,16 +323,16 @@ src/CMakeFiles/OBJ_LIB.dir/braft/route_table.cpp.o.provides.build: src/CMakeFile
 
 src/CMakeFiles/OBJ_LIB.dir/braft/memory_log.cpp.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/braft/memory_log.cpp.o: ../src/braft/memory_log.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/memory_log.cpp.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/memory_log.cpp.o -c /home/agnes/Documents/braft/src/braft/memory_log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/memory_log.cpp.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/memory_log.cpp.o -c /home/agnes/Documents/mybraft/src/braft/memory_log.cpp
 
 src/CMakeFiles/OBJ_LIB.dir/braft/memory_log.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/braft/memory_log.cpp.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/src/braft/memory_log.cpp > CMakeFiles/OBJ_LIB.dir/braft/memory_log.cpp.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/src/braft/memory_log.cpp > CMakeFiles/OBJ_LIB.dir/braft/memory_log.cpp.i
 
 src/CMakeFiles/OBJ_LIB.dir/braft/memory_log.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/braft/memory_log.cpp.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/src/braft/memory_log.cpp -o CMakeFiles/OBJ_LIB.dir/braft/memory_log.cpp.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/src/braft/memory_log.cpp -o CMakeFiles/OBJ_LIB.dir/braft/memory_log.cpp.s
 
 src/CMakeFiles/OBJ_LIB.dir/braft/memory_log.cpp.o.requires:
 
@@ -347,16 +347,16 @@ src/CMakeFiles/OBJ_LIB.dir/braft/memory_log.cpp.o.provides.build: src/CMakeFiles
 
 src/CMakeFiles/OBJ_LIB.dir/braft/raft_meta.cpp.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/braft/raft_meta.cpp.o: ../src/braft/raft_meta.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/raft_meta.cpp.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/raft_meta.cpp.o -c /home/agnes/Documents/braft/src/braft/raft_meta.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/raft_meta.cpp.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/raft_meta.cpp.o -c /home/agnes/Documents/mybraft/src/braft/raft_meta.cpp
 
 src/CMakeFiles/OBJ_LIB.dir/braft/raft_meta.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/braft/raft_meta.cpp.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/src/braft/raft_meta.cpp > CMakeFiles/OBJ_LIB.dir/braft/raft_meta.cpp.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/src/braft/raft_meta.cpp > CMakeFiles/OBJ_LIB.dir/braft/raft_meta.cpp.i
 
 src/CMakeFiles/OBJ_LIB.dir/braft/raft_meta.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/braft/raft_meta.cpp.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/src/braft/raft_meta.cpp -o CMakeFiles/OBJ_LIB.dir/braft/raft_meta.cpp.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/src/braft/raft_meta.cpp -o CMakeFiles/OBJ_LIB.dir/braft/raft_meta.cpp.s
 
 src/CMakeFiles/OBJ_LIB.dir/braft/raft_meta.cpp.o.requires:
 
@@ -371,16 +371,16 @@ src/CMakeFiles/OBJ_LIB.dir/braft/raft_meta.cpp.o.provides.build: src/CMakeFiles/
 
 src/CMakeFiles/OBJ_LIB.dir/braft/log_entry.cpp.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/braft/log_entry.cpp.o: ../src/braft/log_entry.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/log_entry.cpp.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/log_entry.cpp.o -c /home/agnes/Documents/braft/src/braft/log_entry.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/log_entry.cpp.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/log_entry.cpp.o -c /home/agnes/Documents/mybraft/src/braft/log_entry.cpp
 
 src/CMakeFiles/OBJ_LIB.dir/braft/log_entry.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/braft/log_entry.cpp.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/src/braft/log_entry.cpp > CMakeFiles/OBJ_LIB.dir/braft/log_entry.cpp.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/src/braft/log_entry.cpp > CMakeFiles/OBJ_LIB.dir/braft/log_entry.cpp.i
 
 src/CMakeFiles/OBJ_LIB.dir/braft/log_entry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/braft/log_entry.cpp.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/src/braft/log_entry.cpp -o CMakeFiles/OBJ_LIB.dir/braft/log_entry.cpp.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/src/braft/log_entry.cpp -o CMakeFiles/OBJ_LIB.dir/braft/log_entry.cpp.s
 
 src/CMakeFiles/OBJ_LIB.dir/braft/log_entry.cpp.o.requires:
 
@@ -395,16 +395,16 @@ src/CMakeFiles/OBJ_LIB.dir/braft/log_entry.cpp.o.provides.build: src/CMakeFiles/
 
 src/CMakeFiles/OBJ_LIB.dir/braft/util.cpp.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/braft/util.cpp.o: ../src/braft/util.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/util.cpp.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/util.cpp.o -c /home/agnes/Documents/braft/src/braft/util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/util.cpp.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/util.cpp.o -c /home/agnes/Documents/mybraft/src/braft/util.cpp
 
 src/CMakeFiles/OBJ_LIB.dir/braft/util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/braft/util.cpp.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/src/braft/util.cpp > CMakeFiles/OBJ_LIB.dir/braft/util.cpp.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/src/braft/util.cpp > CMakeFiles/OBJ_LIB.dir/braft/util.cpp.i
 
 src/CMakeFiles/OBJ_LIB.dir/braft/util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/braft/util.cpp.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/src/braft/util.cpp -o CMakeFiles/OBJ_LIB.dir/braft/util.cpp.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/src/braft/util.cpp -o CMakeFiles/OBJ_LIB.dir/braft/util.cpp.s
 
 src/CMakeFiles/OBJ_LIB.dir/braft/util.cpp.o.requires:
 
@@ -419,16 +419,16 @@ src/CMakeFiles/OBJ_LIB.dir/braft/util.cpp.o.provides.build: src/CMakeFiles/OBJ_L
 
 src/CMakeFiles/OBJ_LIB.dir/braft/remote_file_copier.cpp.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/braft/remote_file_copier.cpp.o: ../src/braft/remote_file_copier.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/remote_file_copier.cpp.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/remote_file_copier.cpp.o -c /home/agnes/Documents/braft/src/braft/remote_file_copier.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/remote_file_copier.cpp.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/remote_file_copier.cpp.o -c /home/agnes/Documents/mybraft/src/braft/remote_file_copier.cpp
 
 src/CMakeFiles/OBJ_LIB.dir/braft/remote_file_copier.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/braft/remote_file_copier.cpp.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/src/braft/remote_file_copier.cpp > CMakeFiles/OBJ_LIB.dir/braft/remote_file_copier.cpp.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/src/braft/remote_file_copier.cpp > CMakeFiles/OBJ_LIB.dir/braft/remote_file_copier.cpp.i
 
 src/CMakeFiles/OBJ_LIB.dir/braft/remote_file_copier.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/braft/remote_file_copier.cpp.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/src/braft/remote_file_copier.cpp -o CMakeFiles/OBJ_LIB.dir/braft/remote_file_copier.cpp.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/src/braft/remote_file_copier.cpp -o CMakeFiles/OBJ_LIB.dir/braft/remote_file_copier.cpp.s
 
 src/CMakeFiles/OBJ_LIB.dir/braft/remote_file_copier.cpp.o.requires:
 
@@ -443,16 +443,16 @@ src/CMakeFiles/OBJ_LIB.dir/braft/remote_file_copier.cpp.o.provides.build: src/CM
 
 src/CMakeFiles/OBJ_LIB.dir/braft/log.cpp.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/braft/log.cpp.o: ../src/braft/log.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/log.cpp.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/log.cpp.o -c /home/agnes/Documents/braft/src/braft/log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/log.cpp.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/log.cpp.o -c /home/agnes/Documents/mybraft/src/braft/log.cpp
 
 src/CMakeFiles/OBJ_LIB.dir/braft/log.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/braft/log.cpp.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/src/braft/log.cpp > CMakeFiles/OBJ_LIB.dir/braft/log.cpp.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/src/braft/log.cpp > CMakeFiles/OBJ_LIB.dir/braft/log.cpp.i
 
 src/CMakeFiles/OBJ_LIB.dir/braft/log.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/braft/log.cpp.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/src/braft/log.cpp -o CMakeFiles/OBJ_LIB.dir/braft/log.cpp.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/src/braft/log.cpp -o CMakeFiles/OBJ_LIB.dir/braft/log.cpp.s
 
 src/CMakeFiles/OBJ_LIB.dir/braft/log.cpp.o.requires:
 
@@ -467,16 +467,16 @@ src/CMakeFiles/OBJ_LIB.dir/braft/log.cpp.o.provides.build: src/CMakeFiles/OBJ_LI
 
 src/CMakeFiles/OBJ_LIB.dir/braft/configuration.cpp.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/braft/configuration.cpp.o: ../src/braft/configuration.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/configuration.cpp.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/configuration.cpp.o -c /home/agnes/Documents/braft/src/braft/configuration.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/configuration.cpp.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/configuration.cpp.o -c /home/agnes/Documents/mybraft/src/braft/configuration.cpp
 
 src/CMakeFiles/OBJ_LIB.dir/braft/configuration.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/braft/configuration.cpp.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/src/braft/configuration.cpp > CMakeFiles/OBJ_LIB.dir/braft/configuration.cpp.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/src/braft/configuration.cpp > CMakeFiles/OBJ_LIB.dir/braft/configuration.cpp.i
 
 src/CMakeFiles/OBJ_LIB.dir/braft/configuration.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/braft/configuration.cpp.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/src/braft/configuration.cpp -o CMakeFiles/OBJ_LIB.dir/braft/configuration.cpp.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/src/braft/configuration.cpp -o CMakeFiles/OBJ_LIB.dir/braft/configuration.cpp.s
 
 src/CMakeFiles/OBJ_LIB.dir/braft/configuration.cpp.o.requires:
 
@@ -491,16 +491,16 @@ src/CMakeFiles/OBJ_LIB.dir/braft/configuration.cpp.o.provides.build: src/CMakeFi
 
 src/CMakeFiles/OBJ_LIB.dir/braft/fsync.cpp.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/braft/fsync.cpp.o: ../src/braft/fsync.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/fsync.cpp.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/fsync.cpp.o -c /home/agnes/Documents/braft/src/braft/fsync.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/fsync.cpp.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/fsync.cpp.o -c /home/agnes/Documents/mybraft/src/braft/fsync.cpp
 
 src/CMakeFiles/OBJ_LIB.dir/braft/fsync.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/braft/fsync.cpp.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/src/braft/fsync.cpp > CMakeFiles/OBJ_LIB.dir/braft/fsync.cpp.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/src/braft/fsync.cpp > CMakeFiles/OBJ_LIB.dir/braft/fsync.cpp.i
 
 src/CMakeFiles/OBJ_LIB.dir/braft/fsync.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/braft/fsync.cpp.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/src/braft/fsync.cpp -o CMakeFiles/OBJ_LIB.dir/braft/fsync.cpp.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/src/braft/fsync.cpp -o CMakeFiles/OBJ_LIB.dir/braft/fsync.cpp.s
 
 src/CMakeFiles/OBJ_LIB.dir/braft/fsync.cpp.o.requires:
 
@@ -515,16 +515,16 @@ src/CMakeFiles/OBJ_LIB.dir/braft/fsync.cpp.o.provides.build: src/CMakeFiles/OBJ_
 
 src/CMakeFiles/OBJ_LIB.dir/braft/raft_service.cpp.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/braft/raft_service.cpp.o: ../src/braft/raft_service.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/raft_service.cpp.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/raft_service.cpp.o -c /home/agnes/Documents/braft/src/braft/raft_service.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/raft_service.cpp.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/raft_service.cpp.o -c /home/agnes/Documents/mybraft/src/braft/raft_service.cpp
 
 src/CMakeFiles/OBJ_LIB.dir/braft/raft_service.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/braft/raft_service.cpp.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/src/braft/raft_service.cpp > CMakeFiles/OBJ_LIB.dir/braft/raft_service.cpp.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/src/braft/raft_service.cpp > CMakeFiles/OBJ_LIB.dir/braft/raft_service.cpp.i
 
 src/CMakeFiles/OBJ_LIB.dir/braft/raft_service.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/braft/raft_service.cpp.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/src/braft/raft_service.cpp -o CMakeFiles/OBJ_LIB.dir/braft/raft_service.cpp.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/src/braft/raft_service.cpp -o CMakeFiles/OBJ_LIB.dir/braft/raft_service.cpp.s
 
 src/CMakeFiles/OBJ_LIB.dir/braft/raft_service.cpp.o.requires:
 
@@ -539,16 +539,16 @@ src/CMakeFiles/OBJ_LIB.dir/braft/raft_service.cpp.o.provides.build: src/CMakeFil
 
 src/CMakeFiles/OBJ_LIB.dir/braft/protobuf_file.cpp.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/braft/protobuf_file.cpp.o: ../src/braft/protobuf_file.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/protobuf_file.cpp.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/protobuf_file.cpp.o -c /home/agnes/Documents/braft/src/braft/protobuf_file.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/protobuf_file.cpp.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/protobuf_file.cpp.o -c /home/agnes/Documents/mybraft/src/braft/protobuf_file.cpp
 
 src/CMakeFiles/OBJ_LIB.dir/braft/protobuf_file.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/braft/protobuf_file.cpp.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/src/braft/protobuf_file.cpp > CMakeFiles/OBJ_LIB.dir/braft/protobuf_file.cpp.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/src/braft/protobuf_file.cpp > CMakeFiles/OBJ_LIB.dir/braft/protobuf_file.cpp.i
 
 src/CMakeFiles/OBJ_LIB.dir/braft/protobuf_file.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/braft/protobuf_file.cpp.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/src/braft/protobuf_file.cpp -o CMakeFiles/OBJ_LIB.dir/braft/protobuf_file.cpp.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/src/braft/protobuf_file.cpp -o CMakeFiles/OBJ_LIB.dir/braft/protobuf_file.cpp.s
 
 src/CMakeFiles/OBJ_LIB.dir/braft/protobuf_file.cpp.o.requires:
 
@@ -563,16 +563,16 @@ src/CMakeFiles/OBJ_LIB.dir/braft/protobuf_file.cpp.o.provides.build: src/CMakeFi
 
 src/CMakeFiles/OBJ_LIB.dir/braft/ballot.cpp.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/braft/ballot.cpp.o: ../src/braft/ballot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/ballot.cpp.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/ballot.cpp.o -c /home/agnes/Documents/braft/src/braft/ballot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/ballot.cpp.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/ballot.cpp.o -c /home/agnes/Documents/mybraft/src/braft/ballot.cpp
 
 src/CMakeFiles/OBJ_LIB.dir/braft/ballot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/braft/ballot.cpp.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/src/braft/ballot.cpp > CMakeFiles/OBJ_LIB.dir/braft/ballot.cpp.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/src/braft/ballot.cpp > CMakeFiles/OBJ_LIB.dir/braft/ballot.cpp.i
 
 src/CMakeFiles/OBJ_LIB.dir/braft/ballot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/braft/ballot.cpp.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/src/braft/ballot.cpp -o CMakeFiles/OBJ_LIB.dir/braft/ballot.cpp.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/src/braft/ballot.cpp -o CMakeFiles/OBJ_LIB.dir/braft/ballot.cpp.s
 
 src/CMakeFiles/OBJ_LIB.dir/braft/ballot.cpp.o.requires:
 
@@ -587,16 +587,16 @@ src/CMakeFiles/OBJ_LIB.dir/braft/ballot.cpp.o.provides.build: src/CMakeFiles/OBJ
 
 src/CMakeFiles/OBJ_LIB.dir/braft/snapshot.cpp.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/braft/snapshot.cpp.o: ../src/braft/snapshot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/snapshot.cpp.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/snapshot.cpp.o -c /home/agnes/Documents/braft/src/braft/snapshot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/snapshot.cpp.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/snapshot.cpp.o -c /home/agnes/Documents/mybraft/src/braft/snapshot.cpp
 
 src/CMakeFiles/OBJ_LIB.dir/braft/snapshot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/braft/snapshot.cpp.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/src/braft/snapshot.cpp > CMakeFiles/OBJ_LIB.dir/braft/snapshot.cpp.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/src/braft/snapshot.cpp > CMakeFiles/OBJ_LIB.dir/braft/snapshot.cpp.i
 
 src/CMakeFiles/OBJ_LIB.dir/braft/snapshot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/braft/snapshot.cpp.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/src/braft/snapshot.cpp -o CMakeFiles/OBJ_LIB.dir/braft/snapshot.cpp.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/src/braft/snapshot.cpp -o CMakeFiles/OBJ_LIB.dir/braft/snapshot.cpp.s
 
 src/CMakeFiles/OBJ_LIB.dir/braft/snapshot.cpp.o.requires:
 
@@ -611,16 +611,16 @@ src/CMakeFiles/OBJ_LIB.dir/braft/snapshot.cpp.o.provides.build: src/CMakeFiles/O
 
 src/CMakeFiles/OBJ_LIB.dir/braft/node_manager.cpp.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/braft/node_manager.cpp.o: ../src/braft/node_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/node_manager.cpp.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/node_manager.cpp.o -c /home/agnes/Documents/braft/src/braft/node_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/node_manager.cpp.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/node_manager.cpp.o -c /home/agnes/Documents/mybraft/src/braft/node_manager.cpp
 
 src/CMakeFiles/OBJ_LIB.dir/braft/node_manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/braft/node_manager.cpp.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/src/braft/node_manager.cpp > CMakeFiles/OBJ_LIB.dir/braft/node_manager.cpp.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/src/braft/node_manager.cpp > CMakeFiles/OBJ_LIB.dir/braft/node_manager.cpp.i
 
 src/CMakeFiles/OBJ_LIB.dir/braft/node_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/braft/node_manager.cpp.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/src/braft/node_manager.cpp -o CMakeFiles/OBJ_LIB.dir/braft/node_manager.cpp.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/src/braft/node_manager.cpp -o CMakeFiles/OBJ_LIB.dir/braft/node_manager.cpp.s
 
 src/CMakeFiles/OBJ_LIB.dir/braft/node_manager.cpp.o.requires:
 
@@ -635,16 +635,16 @@ src/CMakeFiles/OBJ_LIB.dir/braft/node_manager.cpp.o.provides.build: src/CMakeFil
 
 src/CMakeFiles/OBJ_LIB.dir/braft/fsm_caller.cpp.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/braft/fsm_caller.cpp.o: ../src/braft/fsm_caller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/fsm_caller.cpp.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/fsm_caller.cpp.o -c /home/agnes/Documents/braft/src/braft/fsm_caller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/fsm_caller.cpp.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/fsm_caller.cpp.o -c /home/agnes/Documents/mybraft/src/braft/fsm_caller.cpp
 
 src/CMakeFiles/OBJ_LIB.dir/braft/fsm_caller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/braft/fsm_caller.cpp.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/src/braft/fsm_caller.cpp > CMakeFiles/OBJ_LIB.dir/braft/fsm_caller.cpp.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/src/braft/fsm_caller.cpp > CMakeFiles/OBJ_LIB.dir/braft/fsm_caller.cpp.i
 
 src/CMakeFiles/OBJ_LIB.dir/braft/fsm_caller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/braft/fsm_caller.cpp.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/src/braft/fsm_caller.cpp -o CMakeFiles/OBJ_LIB.dir/braft/fsm_caller.cpp.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/src/braft/fsm_caller.cpp -o CMakeFiles/OBJ_LIB.dir/braft/fsm_caller.cpp.s
 
 src/CMakeFiles/OBJ_LIB.dir/braft/fsm_caller.cpp.o.requires:
 
@@ -659,16 +659,16 @@ src/CMakeFiles/OBJ_LIB.dir/braft/fsm_caller.cpp.o.provides.build: src/CMakeFiles
 
 src/CMakeFiles/OBJ_LIB.dir/braft/repeated_timer_task.cpp.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/braft/repeated_timer_task.cpp.o: ../src/braft/repeated_timer_task.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/repeated_timer_task.cpp.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/repeated_timer_task.cpp.o -c /home/agnes/Documents/braft/src/braft/repeated_timer_task.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/repeated_timer_task.cpp.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/repeated_timer_task.cpp.o -c /home/agnes/Documents/mybraft/src/braft/repeated_timer_task.cpp
 
 src/CMakeFiles/OBJ_LIB.dir/braft/repeated_timer_task.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/braft/repeated_timer_task.cpp.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/src/braft/repeated_timer_task.cpp > CMakeFiles/OBJ_LIB.dir/braft/repeated_timer_task.cpp.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/src/braft/repeated_timer_task.cpp > CMakeFiles/OBJ_LIB.dir/braft/repeated_timer_task.cpp.i
 
 src/CMakeFiles/OBJ_LIB.dir/braft/repeated_timer_task.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/braft/repeated_timer_task.cpp.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/src/braft/repeated_timer_task.cpp -o CMakeFiles/OBJ_LIB.dir/braft/repeated_timer_task.cpp.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/src/braft/repeated_timer_task.cpp -o CMakeFiles/OBJ_LIB.dir/braft/repeated_timer_task.cpp.s
 
 src/CMakeFiles/OBJ_LIB.dir/braft/repeated_timer_task.cpp.o.requires:
 
@@ -683,16 +683,16 @@ src/CMakeFiles/OBJ_LIB.dir/braft/repeated_timer_task.cpp.o.provides.build: src/C
 
 src/CMakeFiles/OBJ_LIB.dir/braft/snapshot_executor.cpp.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/braft/snapshot_executor.cpp.o: ../src/braft/snapshot_executor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/snapshot_executor.cpp.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/snapshot_executor.cpp.o -c /home/agnes/Documents/braft/src/braft/snapshot_executor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/snapshot_executor.cpp.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/snapshot_executor.cpp.o -c /home/agnes/Documents/mybraft/src/braft/snapshot_executor.cpp
 
 src/CMakeFiles/OBJ_LIB.dir/braft/snapshot_executor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/braft/snapshot_executor.cpp.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/src/braft/snapshot_executor.cpp > CMakeFiles/OBJ_LIB.dir/braft/snapshot_executor.cpp.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/src/braft/snapshot_executor.cpp > CMakeFiles/OBJ_LIB.dir/braft/snapshot_executor.cpp.i
 
 src/CMakeFiles/OBJ_LIB.dir/braft/snapshot_executor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/braft/snapshot_executor.cpp.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/src/braft/snapshot_executor.cpp -o CMakeFiles/OBJ_LIB.dir/braft/snapshot_executor.cpp.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/src/braft/snapshot_executor.cpp -o CMakeFiles/OBJ_LIB.dir/braft/snapshot_executor.cpp.s
 
 src/CMakeFiles/OBJ_LIB.dir/braft/snapshot_executor.cpp.o.requires:
 
@@ -707,16 +707,16 @@ src/CMakeFiles/OBJ_LIB.dir/braft/snapshot_executor.cpp.o.provides.build: src/CMa
 
 src/CMakeFiles/OBJ_LIB.dir/braft/node.cpp.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/braft/node.cpp.o: ../src/braft/node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/node.cpp.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/node.cpp.o -c /home/agnes/Documents/braft/src/braft/node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/node.cpp.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/node.cpp.o -c /home/agnes/Documents/mybraft/src/braft/node.cpp
 
 src/CMakeFiles/OBJ_LIB.dir/braft/node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/braft/node.cpp.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/src/braft/node.cpp > CMakeFiles/OBJ_LIB.dir/braft/node.cpp.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/src/braft/node.cpp > CMakeFiles/OBJ_LIB.dir/braft/node.cpp.i
 
 src/CMakeFiles/OBJ_LIB.dir/braft/node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/braft/node.cpp.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/src/braft/node.cpp -o CMakeFiles/OBJ_LIB.dir/braft/node.cpp.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/src/braft/node.cpp -o CMakeFiles/OBJ_LIB.dir/braft/node.cpp.s
 
 src/CMakeFiles/OBJ_LIB.dir/braft/node.cpp.o.requires:
 
@@ -731,16 +731,16 @@ src/CMakeFiles/OBJ_LIB.dir/braft/node.cpp.o.provides.build: src/CMakeFiles/OBJ_L
 
 src/CMakeFiles/OBJ_LIB.dir/braft/file_reader.cpp.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/braft/file_reader.cpp.o: ../src/braft/file_reader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/file_reader.cpp.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/file_reader.cpp.o -c /home/agnes/Documents/braft/src/braft/file_reader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/file_reader.cpp.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/file_reader.cpp.o -c /home/agnes/Documents/mybraft/src/braft/file_reader.cpp
 
 src/CMakeFiles/OBJ_LIB.dir/braft/file_reader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/braft/file_reader.cpp.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/src/braft/file_reader.cpp > CMakeFiles/OBJ_LIB.dir/braft/file_reader.cpp.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/src/braft/file_reader.cpp > CMakeFiles/OBJ_LIB.dir/braft/file_reader.cpp.i
 
 src/CMakeFiles/OBJ_LIB.dir/braft/file_reader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/braft/file_reader.cpp.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/src/braft/file_reader.cpp -o CMakeFiles/OBJ_LIB.dir/braft/file_reader.cpp.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/src/braft/file_reader.cpp -o CMakeFiles/OBJ_LIB.dir/braft/file_reader.cpp.s
 
 src/CMakeFiles/OBJ_LIB.dir/braft/file_reader.cpp.o.requires:
 
@@ -755,16 +755,16 @@ src/CMakeFiles/OBJ_LIB.dir/braft/file_reader.cpp.o.provides.build: src/CMakeFile
 
 src/CMakeFiles/OBJ_LIB.dir/braft/cli_service.cpp.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/braft/cli_service.cpp.o: ../src/braft/cli_service.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/cli_service.cpp.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/cli_service.cpp.o -c /home/agnes/Documents/braft/src/braft/cli_service.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/cli_service.cpp.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/cli_service.cpp.o -c /home/agnes/Documents/mybraft/src/braft/cli_service.cpp
 
 src/CMakeFiles/OBJ_LIB.dir/braft/cli_service.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/braft/cli_service.cpp.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/src/braft/cli_service.cpp > CMakeFiles/OBJ_LIB.dir/braft/cli_service.cpp.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/src/braft/cli_service.cpp > CMakeFiles/OBJ_LIB.dir/braft/cli_service.cpp.i
 
 src/CMakeFiles/OBJ_LIB.dir/braft/cli_service.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/braft/cli_service.cpp.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/src/braft/cli_service.cpp -o CMakeFiles/OBJ_LIB.dir/braft/cli_service.cpp.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/src/braft/cli_service.cpp -o CMakeFiles/OBJ_LIB.dir/braft/cli_service.cpp.s
 
 src/CMakeFiles/OBJ_LIB.dir/braft/cli_service.cpp.o.requires:
 
@@ -779,16 +779,16 @@ src/CMakeFiles/OBJ_LIB.dir/braft/cli_service.cpp.o.provides.build: src/CMakeFile
 
 src/CMakeFiles/OBJ_LIB.dir/braft/log_manager.cpp.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/braft/log_manager.cpp.o: ../src/braft/log_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/log_manager.cpp.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/log_manager.cpp.o -c /home/agnes/Documents/braft/src/braft/log_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/log_manager.cpp.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/log_manager.cpp.o -c /home/agnes/Documents/mybraft/src/braft/log_manager.cpp
 
 src/CMakeFiles/OBJ_LIB.dir/braft/log_manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/braft/log_manager.cpp.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/src/braft/log_manager.cpp > CMakeFiles/OBJ_LIB.dir/braft/log_manager.cpp.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/src/braft/log_manager.cpp > CMakeFiles/OBJ_LIB.dir/braft/log_manager.cpp.i
 
 src/CMakeFiles/OBJ_LIB.dir/braft/log_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/braft/log_manager.cpp.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/src/braft/log_manager.cpp -o CMakeFiles/OBJ_LIB.dir/braft/log_manager.cpp.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/src/braft/log_manager.cpp -o CMakeFiles/OBJ_LIB.dir/braft/log_manager.cpp.s
 
 src/CMakeFiles/OBJ_LIB.dir/braft/log_manager.cpp.o.requires:
 
@@ -803,16 +803,16 @@ src/CMakeFiles/OBJ_LIB.dir/braft/log_manager.cpp.o.provides.build: src/CMakeFile
 
 src/CMakeFiles/OBJ_LIB.dir/braft/raft.cpp.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/braft/raft.cpp.o: ../src/braft/raft.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/raft.cpp.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/raft.cpp.o -c /home/agnes/Documents/braft/src/braft/raft.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/braft/raft.cpp.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/braft/raft.cpp.o -c /home/agnes/Documents/mybraft/src/braft/raft.cpp
 
 src/CMakeFiles/OBJ_LIB.dir/braft/raft.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/braft/raft.cpp.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/src/braft/raft.cpp > CMakeFiles/OBJ_LIB.dir/braft/raft.cpp.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/src/braft/raft.cpp > CMakeFiles/OBJ_LIB.dir/braft/raft.cpp.i
 
 src/CMakeFiles/OBJ_LIB.dir/braft/raft.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/braft/raft.cpp.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/src/braft/raft.cpp -o CMakeFiles/OBJ_LIB.dir/braft/raft.cpp.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/src/braft/raft.cpp -o CMakeFiles/OBJ_LIB.dir/braft/raft.cpp.s
 
 src/CMakeFiles/OBJ_LIB.dir/braft/raft.cpp.o.requires:
 
@@ -827,16 +827,16 @@ src/CMakeFiles/OBJ_LIB.dir/braft/raft.cpp.o.provides.build: src/CMakeFiles/OBJ_L
 
 src/CMakeFiles/OBJ_LIB.dir/__/braft/local_storage.pb.cc.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/__/braft/local_storage.pb.cc.o: braft/local_storage.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/__/braft/local_storage.pb.cc.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/__/braft/local_storage.pb.cc.o -c /home/agnes/Documents/braft/build/braft/local_storage.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/__/braft/local_storage.pb.cc.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/__/braft/local_storage.pb.cc.o -c /home/agnes/Documents/mybraft/build/braft/local_storage.pb.cc
 
 src/CMakeFiles/OBJ_LIB.dir/__/braft/local_storage.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/__/braft/local_storage.pb.cc.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/build/braft/local_storage.pb.cc > CMakeFiles/OBJ_LIB.dir/__/braft/local_storage.pb.cc.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/build/braft/local_storage.pb.cc > CMakeFiles/OBJ_LIB.dir/__/braft/local_storage.pb.cc.i
 
 src/CMakeFiles/OBJ_LIB.dir/__/braft/local_storage.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/__/braft/local_storage.pb.cc.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/build/braft/local_storage.pb.cc -o CMakeFiles/OBJ_LIB.dir/__/braft/local_storage.pb.cc.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/build/braft/local_storage.pb.cc -o CMakeFiles/OBJ_LIB.dir/__/braft/local_storage.pb.cc.s
 
 src/CMakeFiles/OBJ_LIB.dir/__/braft/local_storage.pb.cc.o.requires:
 
@@ -851,16 +851,16 @@ src/CMakeFiles/OBJ_LIB.dir/__/braft/local_storage.pb.cc.o.provides.build: src/CM
 
 src/CMakeFiles/OBJ_LIB.dir/__/braft/errno.pb.cc.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/__/braft/errno.pb.cc.o: braft/errno.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/__/braft/errno.pb.cc.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/__/braft/errno.pb.cc.o -c /home/agnes/Documents/braft/build/braft/errno.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/__/braft/errno.pb.cc.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/__/braft/errno.pb.cc.o -c /home/agnes/Documents/mybraft/build/braft/errno.pb.cc
 
 src/CMakeFiles/OBJ_LIB.dir/__/braft/errno.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/__/braft/errno.pb.cc.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/build/braft/errno.pb.cc > CMakeFiles/OBJ_LIB.dir/__/braft/errno.pb.cc.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/build/braft/errno.pb.cc > CMakeFiles/OBJ_LIB.dir/__/braft/errno.pb.cc.i
 
 src/CMakeFiles/OBJ_LIB.dir/__/braft/errno.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/__/braft/errno.pb.cc.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/build/braft/errno.pb.cc -o CMakeFiles/OBJ_LIB.dir/__/braft/errno.pb.cc.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/build/braft/errno.pb.cc -o CMakeFiles/OBJ_LIB.dir/__/braft/errno.pb.cc.s
 
 src/CMakeFiles/OBJ_LIB.dir/__/braft/errno.pb.cc.o.requires:
 
@@ -875,16 +875,16 @@ src/CMakeFiles/OBJ_LIB.dir/__/braft/errno.pb.cc.o.provides.build: src/CMakeFiles
 
 src/CMakeFiles/OBJ_LIB.dir/__/braft/local_file_meta.pb.cc.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/__/braft/local_file_meta.pb.cc.o: braft/local_file_meta.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/__/braft/local_file_meta.pb.cc.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/__/braft/local_file_meta.pb.cc.o -c /home/agnes/Documents/braft/build/braft/local_file_meta.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/__/braft/local_file_meta.pb.cc.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/__/braft/local_file_meta.pb.cc.o -c /home/agnes/Documents/mybraft/build/braft/local_file_meta.pb.cc
 
 src/CMakeFiles/OBJ_LIB.dir/__/braft/local_file_meta.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/__/braft/local_file_meta.pb.cc.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/build/braft/local_file_meta.pb.cc > CMakeFiles/OBJ_LIB.dir/__/braft/local_file_meta.pb.cc.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/build/braft/local_file_meta.pb.cc > CMakeFiles/OBJ_LIB.dir/__/braft/local_file_meta.pb.cc.i
 
 src/CMakeFiles/OBJ_LIB.dir/__/braft/local_file_meta.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/__/braft/local_file_meta.pb.cc.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/build/braft/local_file_meta.pb.cc -o CMakeFiles/OBJ_LIB.dir/__/braft/local_file_meta.pb.cc.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/build/braft/local_file_meta.pb.cc -o CMakeFiles/OBJ_LIB.dir/__/braft/local_file_meta.pb.cc.s
 
 src/CMakeFiles/OBJ_LIB.dir/__/braft/local_file_meta.pb.cc.o.requires:
 
@@ -899,16 +899,16 @@ src/CMakeFiles/OBJ_LIB.dir/__/braft/local_file_meta.pb.cc.o.provides.build: src/
 
 src/CMakeFiles/OBJ_LIB.dir/__/braft/builtin_service.pb.cc.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/__/braft/builtin_service.pb.cc.o: braft/builtin_service.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/__/braft/builtin_service.pb.cc.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/__/braft/builtin_service.pb.cc.o -c /home/agnes/Documents/braft/build/braft/builtin_service.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/__/braft/builtin_service.pb.cc.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/__/braft/builtin_service.pb.cc.o -c /home/agnes/Documents/mybraft/build/braft/builtin_service.pb.cc
 
 src/CMakeFiles/OBJ_LIB.dir/__/braft/builtin_service.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/__/braft/builtin_service.pb.cc.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/build/braft/builtin_service.pb.cc > CMakeFiles/OBJ_LIB.dir/__/braft/builtin_service.pb.cc.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/build/braft/builtin_service.pb.cc > CMakeFiles/OBJ_LIB.dir/__/braft/builtin_service.pb.cc.i
 
 src/CMakeFiles/OBJ_LIB.dir/__/braft/builtin_service.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/__/braft/builtin_service.pb.cc.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/build/braft/builtin_service.pb.cc -o CMakeFiles/OBJ_LIB.dir/__/braft/builtin_service.pb.cc.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/build/braft/builtin_service.pb.cc -o CMakeFiles/OBJ_LIB.dir/__/braft/builtin_service.pb.cc.s
 
 src/CMakeFiles/OBJ_LIB.dir/__/braft/builtin_service.pb.cc.o.requires:
 
@@ -923,16 +923,16 @@ src/CMakeFiles/OBJ_LIB.dir/__/braft/builtin_service.pb.cc.o.provides.build: src/
 
 src/CMakeFiles/OBJ_LIB.dir/__/braft/cli.pb.cc.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/__/braft/cli.pb.cc.o: braft/cli.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/__/braft/cli.pb.cc.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/__/braft/cli.pb.cc.o -c /home/agnes/Documents/braft/build/braft/cli.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/__/braft/cli.pb.cc.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/__/braft/cli.pb.cc.o -c /home/agnes/Documents/mybraft/build/braft/cli.pb.cc
 
 src/CMakeFiles/OBJ_LIB.dir/__/braft/cli.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/__/braft/cli.pb.cc.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/build/braft/cli.pb.cc > CMakeFiles/OBJ_LIB.dir/__/braft/cli.pb.cc.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/build/braft/cli.pb.cc > CMakeFiles/OBJ_LIB.dir/__/braft/cli.pb.cc.i
 
 src/CMakeFiles/OBJ_LIB.dir/__/braft/cli.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/__/braft/cli.pb.cc.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/build/braft/cli.pb.cc -o CMakeFiles/OBJ_LIB.dir/__/braft/cli.pb.cc.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/build/braft/cli.pb.cc -o CMakeFiles/OBJ_LIB.dir/__/braft/cli.pb.cc.s
 
 src/CMakeFiles/OBJ_LIB.dir/__/braft/cli.pb.cc.o.requires:
 
@@ -947,16 +947,16 @@ src/CMakeFiles/OBJ_LIB.dir/__/braft/cli.pb.cc.o.provides.build: src/CMakeFiles/O
 
 src/CMakeFiles/OBJ_LIB.dir/__/braft/raft.pb.cc.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/__/braft/raft.pb.cc.o: braft/raft.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/__/braft/raft.pb.cc.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/__/braft/raft.pb.cc.o -c /home/agnes/Documents/braft/build/braft/raft.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/__/braft/raft.pb.cc.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/__/braft/raft.pb.cc.o -c /home/agnes/Documents/mybraft/build/braft/raft.pb.cc
 
 src/CMakeFiles/OBJ_LIB.dir/__/braft/raft.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/__/braft/raft.pb.cc.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/build/braft/raft.pb.cc > CMakeFiles/OBJ_LIB.dir/__/braft/raft.pb.cc.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/build/braft/raft.pb.cc > CMakeFiles/OBJ_LIB.dir/__/braft/raft.pb.cc.i
 
 src/CMakeFiles/OBJ_LIB.dir/__/braft/raft.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/__/braft/raft.pb.cc.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/build/braft/raft.pb.cc -o CMakeFiles/OBJ_LIB.dir/__/braft/raft.pb.cc.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/build/braft/raft.pb.cc -o CMakeFiles/OBJ_LIB.dir/__/braft/raft.pb.cc.s
 
 src/CMakeFiles/OBJ_LIB.dir/__/braft/raft.pb.cc.o.requires:
 
@@ -971,16 +971,16 @@ src/CMakeFiles/OBJ_LIB.dir/__/braft/raft.pb.cc.o.provides.build: src/CMakeFiles/
 
 src/CMakeFiles/OBJ_LIB.dir/__/braft/enum.pb.cc.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/__/braft/enum.pb.cc.o: braft/enum.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/__/braft/enum.pb.cc.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/__/braft/enum.pb.cc.o -c /home/agnes/Documents/braft/build/braft/enum.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/__/braft/enum.pb.cc.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/__/braft/enum.pb.cc.o -c /home/agnes/Documents/mybraft/build/braft/enum.pb.cc
 
 src/CMakeFiles/OBJ_LIB.dir/__/braft/enum.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/__/braft/enum.pb.cc.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/build/braft/enum.pb.cc > CMakeFiles/OBJ_LIB.dir/__/braft/enum.pb.cc.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/build/braft/enum.pb.cc > CMakeFiles/OBJ_LIB.dir/__/braft/enum.pb.cc.i
 
 src/CMakeFiles/OBJ_LIB.dir/__/braft/enum.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/__/braft/enum.pb.cc.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/build/braft/enum.pb.cc -o CMakeFiles/OBJ_LIB.dir/__/braft/enum.pb.cc.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/build/braft/enum.pb.cc -o CMakeFiles/OBJ_LIB.dir/__/braft/enum.pb.cc.s
 
 src/CMakeFiles/OBJ_LIB.dir/__/braft/enum.pb.cc.o.requires:
 
@@ -995,16 +995,16 @@ src/CMakeFiles/OBJ_LIB.dir/__/braft/enum.pb.cc.o.provides.build: src/CMakeFiles/
 
 src/CMakeFiles/OBJ_LIB.dir/__/braft/file_service.pb.cc.o: src/CMakeFiles/OBJ_LIB.dir/flags.make
 src/CMakeFiles/OBJ_LIB.dir/__/braft/file_service.pb.cc.o: braft/file_service.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/__/braft/file_service.pb.cc.o"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/__/braft/file_service.pb.cc.o -c /home/agnes/Documents/braft/build/braft/file_service.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object src/CMakeFiles/OBJ_LIB.dir/__/braft/file_service.pb.cc.o"
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OBJ_LIB.dir/__/braft/file_service.pb.cc.o -c /home/agnes/Documents/mybraft/build/braft/file_service.pb.cc
 
 src/CMakeFiles/OBJ_LIB.dir/__/braft/file_service.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OBJ_LIB.dir/__/braft/file_service.pb.cc.i"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/braft/build/braft/file_service.pb.cc > CMakeFiles/OBJ_LIB.dir/__/braft/file_service.pb.cc.i
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agnes/Documents/mybraft/build/braft/file_service.pb.cc > CMakeFiles/OBJ_LIB.dir/__/braft/file_service.pb.cc.i
 
 src/CMakeFiles/OBJ_LIB.dir/__/braft/file_service.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OBJ_LIB.dir/__/braft/file_service.pb.cc.s"
-	cd /home/agnes/Documents/braft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/braft/build/braft/file_service.pb.cc -o CMakeFiles/OBJ_LIB.dir/__/braft/file_service.pb.cc.s
+	cd /home/agnes/Documents/mybraft/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agnes/Documents/mybraft/build/braft/file_service.pb.cc -o CMakeFiles/OBJ_LIB.dir/__/braft/file_service.pb.cc.s
 
 src/CMakeFiles/OBJ_LIB.dir/__/braft/file_service.pb.cc.o.requires:
 
@@ -1110,10 +1110,10 @@ src/CMakeFiles/OBJ_LIB.dir/requires: src/CMakeFiles/OBJ_LIB.dir/__/braft/file_se
 .PHONY : src/CMakeFiles/OBJ_LIB.dir/requires
 
 src/CMakeFiles/OBJ_LIB.dir/clean:
-	cd /home/agnes/Documents/braft/build/src && $(CMAKE_COMMAND) -P CMakeFiles/OBJ_LIB.dir/cmake_clean.cmake
+	cd /home/agnes/Documents/mybraft/build/src && $(CMAKE_COMMAND) -P CMakeFiles/OBJ_LIB.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/OBJ_LIB.dir/clean
 
 src/CMakeFiles/OBJ_LIB.dir/depend:
-	cd /home/agnes/Documents/braft/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agnes/Documents/braft /home/agnes/Documents/braft/src /home/agnes/Documents/braft/build /home/agnes/Documents/braft/build/src /home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/agnes/Documents/mybraft/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agnes/Documents/mybraft /home/agnes/Documents/mybraft/src /home/agnes/Documents/mybraft/build /home/agnes/Documents/mybraft/build/src /home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/OBJ_LIB.dir/depend
 

@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/agnes/Documents/braft
+CMAKE_SOURCE_DIR = /home/agnes/Documents/mybraft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/agnes/Documents/braft/build
+CMAKE_BINARY_DIR = /home/agnes/Documents/mybraft/build
 
 #=============================================================================
 # Directory level rules for directory src
@@ -88,7 +88,7 @@ src/preinstall:
 src/CMakeFiles/OBJ_LIB.dir/all:
 	$(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/depend
 	$(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40 "Built target OBJ_LIB"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40 "Built target OBJ_LIB"
 .PHONY : src/CMakeFiles/OBJ_LIB.dir/all
 
 # Include target in all.
@@ -98,9 +98,9 @@ all: src/CMakeFiles/OBJ_LIB.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/OBJ_LIB.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/agnes/Documents/braft/build/CMakeFiles 40
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/agnes/Documents/mybraft/build/CMakeFiles 40
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/OBJ_LIB.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/agnes/Documents/braft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/agnes/Documents/mybraft/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/OBJ_LIB.dir/rule
 
 # Convenience name for target.
@@ -125,7 +125,7 @@ clean: src/CMakeFiles/OBJ_LIB.dir/clean
 src/CMakeFiles/braft-shared.dir/all: src/CMakeFiles/OBJ_LIB.dir/all
 	$(MAKE) -f src/CMakeFiles/braft-shared.dir/build.make src/CMakeFiles/braft-shared.dir/depend
 	$(MAKE) -f src/CMakeFiles/braft-shared.dir/build.make src/CMakeFiles/braft-shared.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=41 "Built target braft-shared"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=41 "Built target braft-shared"
 .PHONY : src/CMakeFiles/braft-shared.dir/all
 
 # Include target in all.
@@ -135,9 +135,9 @@ all: src/CMakeFiles/braft-shared.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/braft-shared.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/agnes/Documents/braft/build/CMakeFiles 41
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/agnes/Documents/mybraft/build/CMakeFiles 41
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/braft-shared.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/agnes/Documents/braft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/agnes/Documents/mybraft/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/braft-shared.dir/rule
 
 # Convenience name for target.
@@ -162,7 +162,7 @@ clean: src/CMakeFiles/braft-shared.dir/clean
 src/CMakeFiles/braft-static.dir/all: src/CMakeFiles/OBJ_LIB.dir/all
 	$(MAKE) -f src/CMakeFiles/braft-static.dir/build.make src/CMakeFiles/braft-static.dir/depend
 	$(MAKE) -f src/CMakeFiles/braft-static.dir/build.make src/CMakeFiles/braft-static.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=42 "Built target braft-static"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=42 "Built target braft-static"
 .PHONY : src/CMakeFiles/braft-static.dir/all
 
 # Include target in all.
@@ -172,9 +172,9 @@ all: src/CMakeFiles/braft-static.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/braft-static.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/agnes/Documents/braft/build/CMakeFiles 41
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/agnes/Documents/mybraft/build/CMakeFiles 41
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/braft-static.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/agnes/Documents/braft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/agnes/Documents/mybraft/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/braft-static.dir/rule
 
 # Convenience name for target.
@@ -217,7 +217,7 @@ tools/preinstall:
 tools/CMakeFiles/braft_cli.dir/all: src/CMakeFiles/braft-static.dir/all
 	$(MAKE) -f tools/CMakeFiles/braft_cli.dir/build.make tools/CMakeFiles/braft_cli.dir/depend
 	$(MAKE) -f tools/CMakeFiles/braft_cli.dir/build.make tools/CMakeFiles/braft_cli.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=43,44 "Built target braft_cli"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=43,44 "Built target braft_cli"
 .PHONY : tools/CMakeFiles/braft_cli.dir/all
 
 # Include target in all.
@@ -227,9 +227,9 @@ all: tools/CMakeFiles/braft_cli.dir/all
 
 # Build rule for subdir invocation for target.
 tools/CMakeFiles/braft_cli.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/agnes/Documents/braft/build/CMakeFiles 43
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/agnes/Documents/mybraft/build/CMakeFiles 43
 	$(MAKE) -f CMakeFiles/Makefile2 tools/CMakeFiles/braft_cli.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/agnes/Documents/braft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/agnes/Documents/mybraft/build/CMakeFiles 0
 .PHONY : tools/CMakeFiles/braft_cli.dir/rule
 
 # Convenience name for target.

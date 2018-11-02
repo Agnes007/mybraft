@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/agnes/Documents/braft
+CMAKE_SOURCE_DIR = /home/agnes/Documents/mybraft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/agnes/Documents/braft/build
+CMAKE_BINARY_DIR = /home/agnes/Documents/mybraft/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/braft-shared.dir/depend.make
@@ -62,46 +62,46 @@ braft__shared_OBJECTS =
 
 # External object files for target braft-shared
 braft__shared_EXTERNAL_OBJECTS = \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/braft/replicator.cpp.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/braft/snapshot_throttle.cpp.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/braft/file_service.cpp.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/braft/storage.cpp.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/braft/builtin_service_impl.cpp.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/braft/file_system_adaptor.cpp.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/braft/ballot_box.cpp.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/braft/cli.cpp.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/braft/configuration_manager.cpp.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/braft/closure_queue.cpp.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/braft/route_table.cpp.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/braft/memory_log.cpp.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/braft/raft_meta.cpp.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/braft/log_entry.cpp.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/braft/util.cpp.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/braft/remote_file_copier.cpp.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/braft/log.cpp.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/braft/configuration.cpp.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/braft/fsync.cpp.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/braft/raft_service.cpp.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/braft/protobuf_file.cpp.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/braft/ballot.cpp.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/braft/snapshot.cpp.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/braft/node_manager.cpp.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/braft/fsm_caller.cpp.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/braft/repeated_timer_task.cpp.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/braft/snapshot_executor.cpp.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/braft/node.cpp.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/braft/file_reader.cpp.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/braft/cli_service.cpp.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/braft/log_manager.cpp.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/braft/raft.cpp.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/__/braft/local_storage.pb.cc.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/__/braft/errno.pb.cc.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/__/braft/local_file_meta.pb.cc.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/__/braft/builtin_service.pb.cc.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/__/braft/cli.pb.cc.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/__/braft/raft.pb.cc.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/__/braft/enum.pb.cc.o" \
-"/home/agnes/Documents/braft/build/src/CMakeFiles/OBJ_LIB.dir/__/braft/file_service.pb.cc.o"
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/braft/replicator.cpp.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/braft/snapshot_throttle.cpp.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/braft/file_service.cpp.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/braft/storage.cpp.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/braft/builtin_service_impl.cpp.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/braft/file_system_adaptor.cpp.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/braft/ballot_box.cpp.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/braft/cli.cpp.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/braft/configuration_manager.cpp.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/braft/closure_queue.cpp.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/braft/route_table.cpp.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/braft/memory_log.cpp.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/braft/raft_meta.cpp.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/braft/log_entry.cpp.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/braft/util.cpp.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/braft/remote_file_copier.cpp.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/braft/log.cpp.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/braft/configuration.cpp.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/braft/fsync.cpp.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/braft/raft_service.cpp.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/braft/protobuf_file.cpp.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/braft/ballot.cpp.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/braft/snapshot.cpp.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/braft/node_manager.cpp.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/braft/fsm_caller.cpp.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/braft/repeated_timer_task.cpp.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/braft/snapshot_executor.cpp.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/braft/node.cpp.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/braft/file_reader.cpp.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/braft/cli_service.cpp.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/braft/log_manager.cpp.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/braft/raft.cpp.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/__/braft/local_storage.pb.cc.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/__/braft/errno.pb.cc.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/__/braft/local_file_meta.pb.cc.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/__/braft/builtin_service.pb.cc.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/__/braft/cli.pb.cc.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/__/braft/raft.pb.cc.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/__/braft/enum.pb.cc.o" \
+"/home/agnes/Documents/mybraft/build/src/CMakeFiles/OBJ_LIB.dir/__/braft/file_service.pb.cc.o"
 
 output/lib/libbraft.so: src/CMakeFiles/OBJ_LIB.dir/braft/replicator.cpp.o
 output/lib/libbraft.so: src/CMakeFiles/OBJ_LIB.dir/braft/snapshot_throttle.cpp.o
@@ -149,8 +149,8 @@ output/lib/libbraft.so: /usr/lib/x86_64-linux-gnu/libgflags.so
 output/lib/libbraft.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 output/lib/libbraft.so: /usr/lib/x86_64-linux-gnu/libleveldb.so
 output/lib/libbraft.so: src/CMakeFiles/braft-shared.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/agnes/Documents/braft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX shared library ../output/lib/libbraft.so"
-	cd /home/agnes/Documents/braft/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/braft-shared.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/agnes/Documents/mybraft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX shared library ../output/lib/libbraft.so"
+	cd /home/agnes/Documents/mybraft/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/braft-shared.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/braft-shared.dir/build: output/lib/libbraft.so
@@ -162,10 +162,10 @@ src/CMakeFiles/braft-shared.dir/requires:
 .PHONY : src/CMakeFiles/braft-shared.dir/requires
 
 src/CMakeFiles/braft-shared.dir/clean:
-	cd /home/agnes/Documents/braft/build/src && $(CMAKE_COMMAND) -P CMakeFiles/braft-shared.dir/cmake_clean.cmake
+	cd /home/agnes/Documents/mybraft/build/src && $(CMAKE_COMMAND) -P CMakeFiles/braft-shared.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/braft-shared.dir/clean
 
 src/CMakeFiles/braft-shared.dir/depend:
-	cd /home/agnes/Documents/braft/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agnes/Documents/braft /home/agnes/Documents/braft/src /home/agnes/Documents/braft/build /home/agnes/Documents/braft/build/src /home/agnes/Documents/braft/build/src/CMakeFiles/braft-shared.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/agnes/Documents/mybraft/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agnes/Documents/mybraft /home/agnes/Documents/mybraft/src /home/agnes/Documents/mybraft/build /home/agnes/Documents/mybraft/build/src /home/agnes/Documents/mybraft/build/src/CMakeFiles/braft-shared.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/braft-shared.dir/depend
 

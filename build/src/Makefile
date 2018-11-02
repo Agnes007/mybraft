@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/agnes/Documents/braft
+CMAKE_SOURCE_DIR = /home/agnes/Documents/mybraft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/agnes/Documents/braft/build
+CMAKE_BINARY_DIR = /home/agnes/Documents/mybraft/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ install/strip/fast: install/strip
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/agnes/Documents/braft/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/agnes/Documents/braft/build/CMakeFiles /home/agnes/Documents/braft/build/src/CMakeFiles/progress.marks
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/agnes/Documents/braft/build/CMakeFiles 0
+	cd /home/agnes/Documents/mybraft/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/agnes/Documents/mybraft/build/CMakeFiles /home/agnes/Documents/mybraft/build/src/CMakeFiles/progress.marks
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/agnes/Documents/mybraft/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/agnes/Documents/braft/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/agnes/Documents/mybraft/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/OBJ_LIB.dir/rule:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/OBJ_LIB.dir/rule
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/OBJ_LIB.dir/rule
 .PHONY : src/CMakeFiles/OBJ_LIB.dir/rule
 
 # Convenience name for target.
@@ -166,12 +166,12 @@ OBJ_LIB: src/CMakeFiles/OBJ_LIB.dir/rule
 
 # fast build rule for target.
 OBJ_LIB/fast:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/build
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/build
 .PHONY : OBJ_LIB/fast
 
 # Convenience name for target.
 src/CMakeFiles/braft-shared.dir/rule:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/braft-shared.dir/rule
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/braft-shared.dir/rule
 .PHONY : src/CMakeFiles/braft-shared.dir/rule
 
 # Convenience name for target.
@@ -181,12 +181,12 @@ braft-shared: src/CMakeFiles/braft-shared.dir/rule
 
 # fast build rule for target.
 braft-shared/fast:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/braft-shared.dir/build.make src/CMakeFiles/braft-shared.dir/build
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/braft-shared.dir/build.make src/CMakeFiles/braft-shared.dir/build
 .PHONY : braft-shared/fast
 
 # Convenience name for target.
 src/CMakeFiles/braft-static.dir/rule:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/braft-static.dir/rule
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/braft-static.dir/rule
 .PHONY : src/CMakeFiles/braft-static.dir/rule
 
 # Convenience name for target.
@@ -196,7 +196,7 @@ braft-static: src/CMakeFiles/braft-static.dir/rule
 
 # fast build rule for target.
 braft-static/fast:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/braft-static.dir/build.make src/CMakeFiles/braft-static.dir/build
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/braft-static.dir/build.make src/CMakeFiles/braft-static.dir/build
 .PHONY : braft-static/fast
 
 __/braft/builtin_service.pb.o: __/braft/builtin_service.pb.cc.o
@@ -205,7 +205,7 @@ __/braft/builtin_service.pb.o: __/braft/builtin_service.pb.cc.o
 
 # target to build an object file
 __/braft/builtin_service.pb.cc.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/builtin_service.pb.cc.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/builtin_service.pb.cc.o
 .PHONY : __/braft/builtin_service.pb.cc.o
 
 __/braft/builtin_service.pb.i: __/braft/builtin_service.pb.cc.i
@@ -214,7 +214,7 @@ __/braft/builtin_service.pb.i: __/braft/builtin_service.pb.cc.i
 
 # target to preprocess a source file
 __/braft/builtin_service.pb.cc.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/builtin_service.pb.cc.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/builtin_service.pb.cc.i
 .PHONY : __/braft/builtin_service.pb.cc.i
 
 __/braft/builtin_service.pb.s: __/braft/builtin_service.pb.cc.s
@@ -223,7 +223,7 @@ __/braft/builtin_service.pb.s: __/braft/builtin_service.pb.cc.s
 
 # target to generate assembly for a file
 __/braft/builtin_service.pb.cc.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/builtin_service.pb.cc.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/builtin_service.pb.cc.s
 .PHONY : __/braft/builtin_service.pb.cc.s
 
 __/braft/cli.pb.o: __/braft/cli.pb.cc.o
@@ -232,7 +232,7 @@ __/braft/cli.pb.o: __/braft/cli.pb.cc.o
 
 # target to build an object file
 __/braft/cli.pb.cc.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/cli.pb.cc.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/cli.pb.cc.o
 .PHONY : __/braft/cli.pb.cc.o
 
 __/braft/cli.pb.i: __/braft/cli.pb.cc.i
@@ -241,7 +241,7 @@ __/braft/cli.pb.i: __/braft/cli.pb.cc.i
 
 # target to preprocess a source file
 __/braft/cli.pb.cc.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/cli.pb.cc.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/cli.pb.cc.i
 .PHONY : __/braft/cli.pb.cc.i
 
 __/braft/cli.pb.s: __/braft/cli.pb.cc.s
@@ -250,7 +250,7 @@ __/braft/cli.pb.s: __/braft/cli.pb.cc.s
 
 # target to generate assembly for a file
 __/braft/cli.pb.cc.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/cli.pb.cc.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/cli.pb.cc.s
 .PHONY : __/braft/cli.pb.cc.s
 
 __/braft/enum.pb.o: __/braft/enum.pb.cc.o
@@ -259,7 +259,7 @@ __/braft/enum.pb.o: __/braft/enum.pb.cc.o
 
 # target to build an object file
 __/braft/enum.pb.cc.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/enum.pb.cc.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/enum.pb.cc.o
 .PHONY : __/braft/enum.pb.cc.o
 
 __/braft/enum.pb.i: __/braft/enum.pb.cc.i
@@ -268,7 +268,7 @@ __/braft/enum.pb.i: __/braft/enum.pb.cc.i
 
 # target to preprocess a source file
 __/braft/enum.pb.cc.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/enum.pb.cc.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/enum.pb.cc.i
 .PHONY : __/braft/enum.pb.cc.i
 
 __/braft/enum.pb.s: __/braft/enum.pb.cc.s
@@ -277,7 +277,7 @@ __/braft/enum.pb.s: __/braft/enum.pb.cc.s
 
 # target to generate assembly for a file
 __/braft/enum.pb.cc.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/enum.pb.cc.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/enum.pb.cc.s
 .PHONY : __/braft/enum.pb.cc.s
 
 __/braft/errno.pb.o: __/braft/errno.pb.cc.o
@@ -286,7 +286,7 @@ __/braft/errno.pb.o: __/braft/errno.pb.cc.o
 
 # target to build an object file
 __/braft/errno.pb.cc.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/errno.pb.cc.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/errno.pb.cc.o
 .PHONY : __/braft/errno.pb.cc.o
 
 __/braft/errno.pb.i: __/braft/errno.pb.cc.i
@@ -295,7 +295,7 @@ __/braft/errno.pb.i: __/braft/errno.pb.cc.i
 
 # target to preprocess a source file
 __/braft/errno.pb.cc.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/errno.pb.cc.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/errno.pb.cc.i
 .PHONY : __/braft/errno.pb.cc.i
 
 __/braft/errno.pb.s: __/braft/errno.pb.cc.s
@@ -304,7 +304,7 @@ __/braft/errno.pb.s: __/braft/errno.pb.cc.s
 
 # target to generate assembly for a file
 __/braft/errno.pb.cc.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/errno.pb.cc.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/errno.pb.cc.s
 .PHONY : __/braft/errno.pb.cc.s
 
 __/braft/file_service.pb.o: __/braft/file_service.pb.cc.o
@@ -313,7 +313,7 @@ __/braft/file_service.pb.o: __/braft/file_service.pb.cc.o
 
 # target to build an object file
 __/braft/file_service.pb.cc.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/file_service.pb.cc.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/file_service.pb.cc.o
 .PHONY : __/braft/file_service.pb.cc.o
 
 __/braft/file_service.pb.i: __/braft/file_service.pb.cc.i
@@ -322,7 +322,7 @@ __/braft/file_service.pb.i: __/braft/file_service.pb.cc.i
 
 # target to preprocess a source file
 __/braft/file_service.pb.cc.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/file_service.pb.cc.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/file_service.pb.cc.i
 .PHONY : __/braft/file_service.pb.cc.i
 
 __/braft/file_service.pb.s: __/braft/file_service.pb.cc.s
@@ -331,7 +331,7 @@ __/braft/file_service.pb.s: __/braft/file_service.pb.cc.s
 
 # target to generate assembly for a file
 __/braft/file_service.pb.cc.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/file_service.pb.cc.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/file_service.pb.cc.s
 .PHONY : __/braft/file_service.pb.cc.s
 
 __/braft/local_file_meta.pb.o: __/braft/local_file_meta.pb.cc.o
@@ -340,7 +340,7 @@ __/braft/local_file_meta.pb.o: __/braft/local_file_meta.pb.cc.o
 
 # target to build an object file
 __/braft/local_file_meta.pb.cc.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/local_file_meta.pb.cc.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/local_file_meta.pb.cc.o
 .PHONY : __/braft/local_file_meta.pb.cc.o
 
 __/braft/local_file_meta.pb.i: __/braft/local_file_meta.pb.cc.i
@@ -349,7 +349,7 @@ __/braft/local_file_meta.pb.i: __/braft/local_file_meta.pb.cc.i
 
 # target to preprocess a source file
 __/braft/local_file_meta.pb.cc.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/local_file_meta.pb.cc.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/local_file_meta.pb.cc.i
 .PHONY : __/braft/local_file_meta.pb.cc.i
 
 __/braft/local_file_meta.pb.s: __/braft/local_file_meta.pb.cc.s
@@ -358,7 +358,7 @@ __/braft/local_file_meta.pb.s: __/braft/local_file_meta.pb.cc.s
 
 # target to generate assembly for a file
 __/braft/local_file_meta.pb.cc.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/local_file_meta.pb.cc.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/local_file_meta.pb.cc.s
 .PHONY : __/braft/local_file_meta.pb.cc.s
 
 __/braft/local_storage.pb.o: __/braft/local_storage.pb.cc.o
@@ -367,7 +367,7 @@ __/braft/local_storage.pb.o: __/braft/local_storage.pb.cc.o
 
 # target to build an object file
 __/braft/local_storage.pb.cc.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/local_storage.pb.cc.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/local_storage.pb.cc.o
 .PHONY : __/braft/local_storage.pb.cc.o
 
 __/braft/local_storage.pb.i: __/braft/local_storage.pb.cc.i
@@ -376,7 +376,7 @@ __/braft/local_storage.pb.i: __/braft/local_storage.pb.cc.i
 
 # target to preprocess a source file
 __/braft/local_storage.pb.cc.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/local_storage.pb.cc.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/local_storage.pb.cc.i
 .PHONY : __/braft/local_storage.pb.cc.i
 
 __/braft/local_storage.pb.s: __/braft/local_storage.pb.cc.s
@@ -385,7 +385,7 @@ __/braft/local_storage.pb.s: __/braft/local_storage.pb.cc.s
 
 # target to generate assembly for a file
 __/braft/local_storage.pb.cc.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/local_storage.pb.cc.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/local_storage.pb.cc.s
 .PHONY : __/braft/local_storage.pb.cc.s
 
 __/braft/raft.pb.o: __/braft/raft.pb.cc.o
@@ -394,7 +394,7 @@ __/braft/raft.pb.o: __/braft/raft.pb.cc.o
 
 # target to build an object file
 __/braft/raft.pb.cc.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/raft.pb.cc.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/raft.pb.cc.o
 .PHONY : __/braft/raft.pb.cc.o
 
 __/braft/raft.pb.i: __/braft/raft.pb.cc.i
@@ -403,7 +403,7 @@ __/braft/raft.pb.i: __/braft/raft.pb.cc.i
 
 # target to preprocess a source file
 __/braft/raft.pb.cc.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/raft.pb.cc.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/raft.pb.cc.i
 .PHONY : __/braft/raft.pb.cc.i
 
 __/braft/raft.pb.s: __/braft/raft.pb.cc.s
@@ -412,7 +412,7 @@ __/braft/raft.pb.s: __/braft/raft.pb.cc.s
 
 # target to generate assembly for a file
 __/braft/raft.pb.cc.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/raft.pb.cc.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/__/braft/raft.pb.cc.s
 .PHONY : __/braft/raft.pb.cc.s
 
 braft/ballot.o: braft/ballot.cpp.o
@@ -421,7 +421,7 @@ braft/ballot.o: braft/ballot.cpp.o
 
 # target to build an object file
 braft/ballot.cpp.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/ballot.cpp.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/ballot.cpp.o
 .PHONY : braft/ballot.cpp.o
 
 braft/ballot.i: braft/ballot.cpp.i
@@ -430,7 +430,7 @@ braft/ballot.i: braft/ballot.cpp.i
 
 # target to preprocess a source file
 braft/ballot.cpp.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/ballot.cpp.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/ballot.cpp.i
 .PHONY : braft/ballot.cpp.i
 
 braft/ballot.s: braft/ballot.cpp.s
@@ -439,7 +439,7 @@ braft/ballot.s: braft/ballot.cpp.s
 
 # target to generate assembly for a file
 braft/ballot.cpp.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/ballot.cpp.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/ballot.cpp.s
 .PHONY : braft/ballot.cpp.s
 
 braft/ballot_box.o: braft/ballot_box.cpp.o
@@ -448,7 +448,7 @@ braft/ballot_box.o: braft/ballot_box.cpp.o
 
 # target to build an object file
 braft/ballot_box.cpp.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/ballot_box.cpp.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/ballot_box.cpp.o
 .PHONY : braft/ballot_box.cpp.o
 
 braft/ballot_box.i: braft/ballot_box.cpp.i
@@ -457,7 +457,7 @@ braft/ballot_box.i: braft/ballot_box.cpp.i
 
 # target to preprocess a source file
 braft/ballot_box.cpp.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/ballot_box.cpp.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/ballot_box.cpp.i
 .PHONY : braft/ballot_box.cpp.i
 
 braft/ballot_box.s: braft/ballot_box.cpp.s
@@ -466,7 +466,7 @@ braft/ballot_box.s: braft/ballot_box.cpp.s
 
 # target to generate assembly for a file
 braft/ballot_box.cpp.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/ballot_box.cpp.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/ballot_box.cpp.s
 .PHONY : braft/ballot_box.cpp.s
 
 braft/builtin_service_impl.o: braft/builtin_service_impl.cpp.o
@@ -475,7 +475,7 @@ braft/builtin_service_impl.o: braft/builtin_service_impl.cpp.o
 
 # target to build an object file
 braft/builtin_service_impl.cpp.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/builtin_service_impl.cpp.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/builtin_service_impl.cpp.o
 .PHONY : braft/builtin_service_impl.cpp.o
 
 braft/builtin_service_impl.i: braft/builtin_service_impl.cpp.i
@@ -484,7 +484,7 @@ braft/builtin_service_impl.i: braft/builtin_service_impl.cpp.i
 
 # target to preprocess a source file
 braft/builtin_service_impl.cpp.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/builtin_service_impl.cpp.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/builtin_service_impl.cpp.i
 .PHONY : braft/builtin_service_impl.cpp.i
 
 braft/builtin_service_impl.s: braft/builtin_service_impl.cpp.s
@@ -493,7 +493,7 @@ braft/builtin_service_impl.s: braft/builtin_service_impl.cpp.s
 
 # target to generate assembly for a file
 braft/builtin_service_impl.cpp.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/builtin_service_impl.cpp.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/builtin_service_impl.cpp.s
 .PHONY : braft/builtin_service_impl.cpp.s
 
 braft/cli.o: braft/cli.cpp.o
@@ -502,7 +502,7 @@ braft/cli.o: braft/cli.cpp.o
 
 # target to build an object file
 braft/cli.cpp.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/cli.cpp.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/cli.cpp.o
 .PHONY : braft/cli.cpp.o
 
 braft/cli.i: braft/cli.cpp.i
@@ -511,7 +511,7 @@ braft/cli.i: braft/cli.cpp.i
 
 # target to preprocess a source file
 braft/cli.cpp.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/cli.cpp.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/cli.cpp.i
 .PHONY : braft/cli.cpp.i
 
 braft/cli.s: braft/cli.cpp.s
@@ -520,7 +520,7 @@ braft/cli.s: braft/cli.cpp.s
 
 # target to generate assembly for a file
 braft/cli.cpp.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/cli.cpp.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/cli.cpp.s
 .PHONY : braft/cli.cpp.s
 
 braft/cli_service.o: braft/cli_service.cpp.o
@@ -529,7 +529,7 @@ braft/cli_service.o: braft/cli_service.cpp.o
 
 # target to build an object file
 braft/cli_service.cpp.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/cli_service.cpp.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/cli_service.cpp.o
 .PHONY : braft/cli_service.cpp.o
 
 braft/cli_service.i: braft/cli_service.cpp.i
@@ -538,7 +538,7 @@ braft/cli_service.i: braft/cli_service.cpp.i
 
 # target to preprocess a source file
 braft/cli_service.cpp.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/cli_service.cpp.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/cli_service.cpp.i
 .PHONY : braft/cli_service.cpp.i
 
 braft/cli_service.s: braft/cli_service.cpp.s
@@ -547,7 +547,7 @@ braft/cli_service.s: braft/cli_service.cpp.s
 
 # target to generate assembly for a file
 braft/cli_service.cpp.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/cli_service.cpp.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/cli_service.cpp.s
 .PHONY : braft/cli_service.cpp.s
 
 braft/closure_queue.o: braft/closure_queue.cpp.o
@@ -556,7 +556,7 @@ braft/closure_queue.o: braft/closure_queue.cpp.o
 
 # target to build an object file
 braft/closure_queue.cpp.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/closure_queue.cpp.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/closure_queue.cpp.o
 .PHONY : braft/closure_queue.cpp.o
 
 braft/closure_queue.i: braft/closure_queue.cpp.i
@@ -565,7 +565,7 @@ braft/closure_queue.i: braft/closure_queue.cpp.i
 
 # target to preprocess a source file
 braft/closure_queue.cpp.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/closure_queue.cpp.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/closure_queue.cpp.i
 .PHONY : braft/closure_queue.cpp.i
 
 braft/closure_queue.s: braft/closure_queue.cpp.s
@@ -574,7 +574,7 @@ braft/closure_queue.s: braft/closure_queue.cpp.s
 
 # target to generate assembly for a file
 braft/closure_queue.cpp.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/closure_queue.cpp.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/closure_queue.cpp.s
 .PHONY : braft/closure_queue.cpp.s
 
 braft/configuration.o: braft/configuration.cpp.o
@@ -583,7 +583,7 @@ braft/configuration.o: braft/configuration.cpp.o
 
 # target to build an object file
 braft/configuration.cpp.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/configuration.cpp.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/configuration.cpp.o
 .PHONY : braft/configuration.cpp.o
 
 braft/configuration.i: braft/configuration.cpp.i
@@ -592,7 +592,7 @@ braft/configuration.i: braft/configuration.cpp.i
 
 # target to preprocess a source file
 braft/configuration.cpp.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/configuration.cpp.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/configuration.cpp.i
 .PHONY : braft/configuration.cpp.i
 
 braft/configuration.s: braft/configuration.cpp.s
@@ -601,7 +601,7 @@ braft/configuration.s: braft/configuration.cpp.s
 
 # target to generate assembly for a file
 braft/configuration.cpp.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/configuration.cpp.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/configuration.cpp.s
 .PHONY : braft/configuration.cpp.s
 
 braft/configuration_manager.o: braft/configuration_manager.cpp.o
@@ -610,7 +610,7 @@ braft/configuration_manager.o: braft/configuration_manager.cpp.o
 
 # target to build an object file
 braft/configuration_manager.cpp.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/configuration_manager.cpp.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/configuration_manager.cpp.o
 .PHONY : braft/configuration_manager.cpp.o
 
 braft/configuration_manager.i: braft/configuration_manager.cpp.i
@@ -619,7 +619,7 @@ braft/configuration_manager.i: braft/configuration_manager.cpp.i
 
 # target to preprocess a source file
 braft/configuration_manager.cpp.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/configuration_manager.cpp.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/configuration_manager.cpp.i
 .PHONY : braft/configuration_manager.cpp.i
 
 braft/configuration_manager.s: braft/configuration_manager.cpp.s
@@ -628,7 +628,7 @@ braft/configuration_manager.s: braft/configuration_manager.cpp.s
 
 # target to generate assembly for a file
 braft/configuration_manager.cpp.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/configuration_manager.cpp.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/configuration_manager.cpp.s
 .PHONY : braft/configuration_manager.cpp.s
 
 braft/file_reader.o: braft/file_reader.cpp.o
@@ -637,7 +637,7 @@ braft/file_reader.o: braft/file_reader.cpp.o
 
 # target to build an object file
 braft/file_reader.cpp.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/file_reader.cpp.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/file_reader.cpp.o
 .PHONY : braft/file_reader.cpp.o
 
 braft/file_reader.i: braft/file_reader.cpp.i
@@ -646,7 +646,7 @@ braft/file_reader.i: braft/file_reader.cpp.i
 
 # target to preprocess a source file
 braft/file_reader.cpp.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/file_reader.cpp.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/file_reader.cpp.i
 .PHONY : braft/file_reader.cpp.i
 
 braft/file_reader.s: braft/file_reader.cpp.s
@@ -655,7 +655,7 @@ braft/file_reader.s: braft/file_reader.cpp.s
 
 # target to generate assembly for a file
 braft/file_reader.cpp.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/file_reader.cpp.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/file_reader.cpp.s
 .PHONY : braft/file_reader.cpp.s
 
 braft/file_service.o: braft/file_service.cpp.o
@@ -664,7 +664,7 @@ braft/file_service.o: braft/file_service.cpp.o
 
 # target to build an object file
 braft/file_service.cpp.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/file_service.cpp.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/file_service.cpp.o
 .PHONY : braft/file_service.cpp.o
 
 braft/file_service.i: braft/file_service.cpp.i
@@ -673,7 +673,7 @@ braft/file_service.i: braft/file_service.cpp.i
 
 # target to preprocess a source file
 braft/file_service.cpp.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/file_service.cpp.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/file_service.cpp.i
 .PHONY : braft/file_service.cpp.i
 
 braft/file_service.s: braft/file_service.cpp.s
@@ -682,7 +682,7 @@ braft/file_service.s: braft/file_service.cpp.s
 
 # target to generate assembly for a file
 braft/file_service.cpp.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/file_service.cpp.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/file_service.cpp.s
 .PHONY : braft/file_service.cpp.s
 
 braft/file_system_adaptor.o: braft/file_system_adaptor.cpp.o
@@ -691,7 +691,7 @@ braft/file_system_adaptor.o: braft/file_system_adaptor.cpp.o
 
 # target to build an object file
 braft/file_system_adaptor.cpp.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/file_system_adaptor.cpp.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/file_system_adaptor.cpp.o
 .PHONY : braft/file_system_adaptor.cpp.o
 
 braft/file_system_adaptor.i: braft/file_system_adaptor.cpp.i
@@ -700,7 +700,7 @@ braft/file_system_adaptor.i: braft/file_system_adaptor.cpp.i
 
 # target to preprocess a source file
 braft/file_system_adaptor.cpp.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/file_system_adaptor.cpp.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/file_system_adaptor.cpp.i
 .PHONY : braft/file_system_adaptor.cpp.i
 
 braft/file_system_adaptor.s: braft/file_system_adaptor.cpp.s
@@ -709,7 +709,7 @@ braft/file_system_adaptor.s: braft/file_system_adaptor.cpp.s
 
 # target to generate assembly for a file
 braft/file_system_adaptor.cpp.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/file_system_adaptor.cpp.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/file_system_adaptor.cpp.s
 .PHONY : braft/file_system_adaptor.cpp.s
 
 braft/fsm_caller.o: braft/fsm_caller.cpp.o
@@ -718,7 +718,7 @@ braft/fsm_caller.o: braft/fsm_caller.cpp.o
 
 # target to build an object file
 braft/fsm_caller.cpp.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/fsm_caller.cpp.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/fsm_caller.cpp.o
 .PHONY : braft/fsm_caller.cpp.o
 
 braft/fsm_caller.i: braft/fsm_caller.cpp.i
@@ -727,7 +727,7 @@ braft/fsm_caller.i: braft/fsm_caller.cpp.i
 
 # target to preprocess a source file
 braft/fsm_caller.cpp.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/fsm_caller.cpp.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/fsm_caller.cpp.i
 .PHONY : braft/fsm_caller.cpp.i
 
 braft/fsm_caller.s: braft/fsm_caller.cpp.s
@@ -736,7 +736,7 @@ braft/fsm_caller.s: braft/fsm_caller.cpp.s
 
 # target to generate assembly for a file
 braft/fsm_caller.cpp.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/fsm_caller.cpp.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/fsm_caller.cpp.s
 .PHONY : braft/fsm_caller.cpp.s
 
 braft/fsync.o: braft/fsync.cpp.o
@@ -745,7 +745,7 @@ braft/fsync.o: braft/fsync.cpp.o
 
 # target to build an object file
 braft/fsync.cpp.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/fsync.cpp.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/fsync.cpp.o
 .PHONY : braft/fsync.cpp.o
 
 braft/fsync.i: braft/fsync.cpp.i
@@ -754,7 +754,7 @@ braft/fsync.i: braft/fsync.cpp.i
 
 # target to preprocess a source file
 braft/fsync.cpp.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/fsync.cpp.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/fsync.cpp.i
 .PHONY : braft/fsync.cpp.i
 
 braft/fsync.s: braft/fsync.cpp.s
@@ -763,7 +763,7 @@ braft/fsync.s: braft/fsync.cpp.s
 
 # target to generate assembly for a file
 braft/fsync.cpp.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/fsync.cpp.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/fsync.cpp.s
 .PHONY : braft/fsync.cpp.s
 
 braft/log.o: braft/log.cpp.o
@@ -772,7 +772,7 @@ braft/log.o: braft/log.cpp.o
 
 # target to build an object file
 braft/log.cpp.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/log.cpp.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/log.cpp.o
 .PHONY : braft/log.cpp.o
 
 braft/log.i: braft/log.cpp.i
@@ -781,7 +781,7 @@ braft/log.i: braft/log.cpp.i
 
 # target to preprocess a source file
 braft/log.cpp.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/log.cpp.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/log.cpp.i
 .PHONY : braft/log.cpp.i
 
 braft/log.s: braft/log.cpp.s
@@ -790,7 +790,7 @@ braft/log.s: braft/log.cpp.s
 
 # target to generate assembly for a file
 braft/log.cpp.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/log.cpp.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/log.cpp.s
 .PHONY : braft/log.cpp.s
 
 braft/log_entry.o: braft/log_entry.cpp.o
@@ -799,7 +799,7 @@ braft/log_entry.o: braft/log_entry.cpp.o
 
 # target to build an object file
 braft/log_entry.cpp.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/log_entry.cpp.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/log_entry.cpp.o
 .PHONY : braft/log_entry.cpp.o
 
 braft/log_entry.i: braft/log_entry.cpp.i
@@ -808,7 +808,7 @@ braft/log_entry.i: braft/log_entry.cpp.i
 
 # target to preprocess a source file
 braft/log_entry.cpp.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/log_entry.cpp.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/log_entry.cpp.i
 .PHONY : braft/log_entry.cpp.i
 
 braft/log_entry.s: braft/log_entry.cpp.s
@@ -817,7 +817,7 @@ braft/log_entry.s: braft/log_entry.cpp.s
 
 # target to generate assembly for a file
 braft/log_entry.cpp.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/log_entry.cpp.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/log_entry.cpp.s
 .PHONY : braft/log_entry.cpp.s
 
 braft/log_manager.o: braft/log_manager.cpp.o
@@ -826,7 +826,7 @@ braft/log_manager.o: braft/log_manager.cpp.o
 
 # target to build an object file
 braft/log_manager.cpp.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/log_manager.cpp.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/log_manager.cpp.o
 .PHONY : braft/log_manager.cpp.o
 
 braft/log_manager.i: braft/log_manager.cpp.i
@@ -835,7 +835,7 @@ braft/log_manager.i: braft/log_manager.cpp.i
 
 # target to preprocess a source file
 braft/log_manager.cpp.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/log_manager.cpp.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/log_manager.cpp.i
 .PHONY : braft/log_manager.cpp.i
 
 braft/log_manager.s: braft/log_manager.cpp.s
@@ -844,7 +844,7 @@ braft/log_manager.s: braft/log_manager.cpp.s
 
 # target to generate assembly for a file
 braft/log_manager.cpp.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/log_manager.cpp.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/log_manager.cpp.s
 .PHONY : braft/log_manager.cpp.s
 
 braft/memory_log.o: braft/memory_log.cpp.o
@@ -853,7 +853,7 @@ braft/memory_log.o: braft/memory_log.cpp.o
 
 # target to build an object file
 braft/memory_log.cpp.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/memory_log.cpp.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/memory_log.cpp.o
 .PHONY : braft/memory_log.cpp.o
 
 braft/memory_log.i: braft/memory_log.cpp.i
@@ -862,7 +862,7 @@ braft/memory_log.i: braft/memory_log.cpp.i
 
 # target to preprocess a source file
 braft/memory_log.cpp.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/memory_log.cpp.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/memory_log.cpp.i
 .PHONY : braft/memory_log.cpp.i
 
 braft/memory_log.s: braft/memory_log.cpp.s
@@ -871,7 +871,7 @@ braft/memory_log.s: braft/memory_log.cpp.s
 
 # target to generate assembly for a file
 braft/memory_log.cpp.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/memory_log.cpp.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/memory_log.cpp.s
 .PHONY : braft/memory_log.cpp.s
 
 braft/node.o: braft/node.cpp.o
@@ -880,7 +880,7 @@ braft/node.o: braft/node.cpp.o
 
 # target to build an object file
 braft/node.cpp.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/node.cpp.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/node.cpp.o
 .PHONY : braft/node.cpp.o
 
 braft/node.i: braft/node.cpp.i
@@ -889,7 +889,7 @@ braft/node.i: braft/node.cpp.i
 
 # target to preprocess a source file
 braft/node.cpp.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/node.cpp.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/node.cpp.i
 .PHONY : braft/node.cpp.i
 
 braft/node.s: braft/node.cpp.s
@@ -898,7 +898,7 @@ braft/node.s: braft/node.cpp.s
 
 # target to generate assembly for a file
 braft/node.cpp.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/node.cpp.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/node.cpp.s
 .PHONY : braft/node.cpp.s
 
 braft/node_manager.o: braft/node_manager.cpp.o
@@ -907,7 +907,7 @@ braft/node_manager.o: braft/node_manager.cpp.o
 
 # target to build an object file
 braft/node_manager.cpp.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/node_manager.cpp.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/node_manager.cpp.o
 .PHONY : braft/node_manager.cpp.o
 
 braft/node_manager.i: braft/node_manager.cpp.i
@@ -916,7 +916,7 @@ braft/node_manager.i: braft/node_manager.cpp.i
 
 # target to preprocess a source file
 braft/node_manager.cpp.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/node_manager.cpp.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/node_manager.cpp.i
 .PHONY : braft/node_manager.cpp.i
 
 braft/node_manager.s: braft/node_manager.cpp.s
@@ -925,7 +925,7 @@ braft/node_manager.s: braft/node_manager.cpp.s
 
 # target to generate assembly for a file
 braft/node_manager.cpp.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/node_manager.cpp.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/node_manager.cpp.s
 .PHONY : braft/node_manager.cpp.s
 
 braft/protobuf_file.o: braft/protobuf_file.cpp.o
@@ -934,7 +934,7 @@ braft/protobuf_file.o: braft/protobuf_file.cpp.o
 
 # target to build an object file
 braft/protobuf_file.cpp.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/protobuf_file.cpp.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/protobuf_file.cpp.o
 .PHONY : braft/protobuf_file.cpp.o
 
 braft/protobuf_file.i: braft/protobuf_file.cpp.i
@@ -943,7 +943,7 @@ braft/protobuf_file.i: braft/protobuf_file.cpp.i
 
 # target to preprocess a source file
 braft/protobuf_file.cpp.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/protobuf_file.cpp.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/protobuf_file.cpp.i
 .PHONY : braft/protobuf_file.cpp.i
 
 braft/protobuf_file.s: braft/protobuf_file.cpp.s
@@ -952,7 +952,7 @@ braft/protobuf_file.s: braft/protobuf_file.cpp.s
 
 # target to generate assembly for a file
 braft/protobuf_file.cpp.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/protobuf_file.cpp.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/protobuf_file.cpp.s
 .PHONY : braft/protobuf_file.cpp.s
 
 braft/raft.o: braft/raft.cpp.o
@@ -961,7 +961,7 @@ braft/raft.o: braft/raft.cpp.o
 
 # target to build an object file
 braft/raft.cpp.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/raft.cpp.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/raft.cpp.o
 .PHONY : braft/raft.cpp.o
 
 braft/raft.i: braft/raft.cpp.i
@@ -970,7 +970,7 @@ braft/raft.i: braft/raft.cpp.i
 
 # target to preprocess a source file
 braft/raft.cpp.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/raft.cpp.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/raft.cpp.i
 .PHONY : braft/raft.cpp.i
 
 braft/raft.s: braft/raft.cpp.s
@@ -979,7 +979,7 @@ braft/raft.s: braft/raft.cpp.s
 
 # target to generate assembly for a file
 braft/raft.cpp.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/raft.cpp.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/raft.cpp.s
 .PHONY : braft/raft.cpp.s
 
 braft/raft_meta.o: braft/raft_meta.cpp.o
@@ -988,7 +988,7 @@ braft/raft_meta.o: braft/raft_meta.cpp.o
 
 # target to build an object file
 braft/raft_meta.cpp.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/raft_meta.cpp.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/raft_meta.cpp.o
 .PHONY : braft/raft_meta.cpp.o
 
 braft/raft_meta.i: braft/raft_meta.cpp.i
@@ -997,7 +997,7 @@ braft/raft_meta.i: braft/raft_meta.cpp.i
 
 # target to preprocess a source file
 braft/raft_meta.cpp.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/raft_meta.cpp.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/raft_meta.cpp.i
 .PHONY : braft/raft_meta.cpp.i
 
 braft/raft_meta.s: braft/raft_meta.cpp.s
@@ -1006,7 +1006,7 @@ braft/raft_meta.s: braft/raft_meta.cpp.s
 
 # target to generate assembly for a file
 braft/raft_meta.cpp.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/raft_meta.cpp.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/raft_meta.cpp.s
 .PHONY : braft/raft_meta.cpp.s
 
 braft/raft_service.o: braft/raft_service.cpp.o
@@ -1015,7 +1015,7 @@ braft/raft_service.o: braft/raft_service.cpp.o
 
 # target to build an object file
 braft/raft_service.cpp.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/raft_service.cpp.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/raft_service.cpp.o
 .PHONY : braft/raft_service.cpp.o
 
 braft/raft_service.i: braft/raft_service.cpp.i
@@ -1024,7 +1024,7 @@ braft/raft_service.i: braft/raft_service.cpp.i
 
 # target to preprocess a source file
 braft/raft_service.cpp.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/raft_service.cpp.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/raft_service.cpp.i
 .PHONY : braft/raft_service.cpp.i
 
 braft/raft_service.s: braft/raft_service.cpp.s
@@ -1033,7 +1033,7 @@ braft/raft_service.s: braft/raft_service.cpp.s
 
 # target to generate assembly for a file
 braft/raft_service.cpp.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/raft_service.cpp.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/raft_service.cpp.s
 .PHONY : braft/raft_service.cpp.s
 
 braft/remote_file_copier.o: braft/remote_file_copier.cpp.o
@@ -1042,7 +1042,7 @@ braft/remote_file_copier.o: braft/remote_file_copier.cpp.o
 
 # target to build an object file
 braft/remote_file_copier.cpp.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/remote_file_copier.cpp.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/remote_file_copier.cpp.o
 .PHONY : braft/remote_file_copier.cpp.o
 
 braft/remote_file_copier.i: braft/remote_file_copier.cpp.i
@@ -1051,7 +1051,7 @@ braft/remote_file_copier.i: braft/remote_file_copier.cpp.i
 
 # target to preprocess a source file
 braft/remote_file_copier.cpp.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/remote_file_copier.cpp.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/remote_file_copier.cpp.i
 .PHONY : braft/remote_file_copier.cpp.i
 
 braft/remote_file_copier.s: braft/remote_file_copier.cpp.s
@@ -1060,7 +1060,7 @@ braft/remote_file_copier.s: braft/remote_file_copier.cpp.s
 
 # target to generate assembly for a file
 braft/remote_file_copier.cpp.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/remote_file_copier.cpp.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/remote_file_copier.cpp.s
 .PHONY : braft/remote_file_copier.cpp.s
 
 braft/repeated_timer_task.o: braft/repeated_timer_task.cpp.o
@@ -1069,7 +1069,7 @@ braft/repeated_timer_task.o: braft/repeated_timer_task.cpp.o
 
 # target to build an object file
 braft/repeated_timer_task.cpp.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/repeated_timer_task.cpp.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/repeated_timer_task.cpp.o
 .PHONY : braft/repeated_timer_task.cpp.o
 
 braft/repeated_timer_task.i: braft/repeated_timer_task.cpp.i
@@ -1078,7 +1078,7 @@ braft/repeated_timer_task.i: braft/repeated_timer_task.cpp.i
 
 # target to preprocess a source file
 braft/repeated_timer_task.cpp.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/repeated_timer_task.cpp.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/repeated_timer_task.cpp.i
 .PHONY : braft/repeated_timer_task.cpp.i
 
 braft/repeated_timer_task.s: braft/repeated_timer_task.cpp.s
@@ -1087,7 +1087,7 @@ braft/repeated_timer_task.s: braft/repeated_timer_task.cpp.s
 
 # target to generate assembly for a file
 braft/repeated_timer_task.cpp.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/repeated_timer_task.cpp.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/repeated_timer_task.cpp.s
 .PHONY : braft/repeated_timer_task.cpp.s
 
 braft/replicator.o: braft/replicator.cpp.o
@@ -1096,7 +1096,7 @@ braft/replicator.o: braft/replicator.cpp.o
 
 # target to build an object file
 braft/replicator.cpp.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/replicator.cpp.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/replicator.cpp.o
 .PHONY : braft/replicator.cpp.o
 
 braft/replicator.i: braft/replicator.cpp.i
@@ -1105,7 +1105,7 @@ braft/replicator.i: braft/replicator.cpp.i
 
 # target to preprocess a source file
 braft/replicator.cpp.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/replicator.cpp.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/replicator.cpp.i
 .PHONY : braft/replicator.cpp.i
 
 braft/replicator.s: braft/replicator.cpp.s
@@ -1114,7 +1114,7 @@ braft/replicator.s: braft/replicator.cpp.s
 
 # target to generate assembly for a file
 braft/replicator.cpp.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/replicator.cpp.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/replicator.cpp.s
 .PHONY : braft/replicator.cpp.s
 
 braft/route_table.o: braft/route_table.cpp.o
@@ -1123,7 +1123,7 @@ braft/route_table.o: braft/route_table.cpp.o
 
 # target to build an object file
 braft/route_table.cpp.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/route_table.cpp.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/route_table.cpp.o
 .PHONY : braft/route_table.cpp.o
 
 braft/route_table.i: braft/route_table.cpp.i
@@ -1132,7 +1132,7 @@ braft/route_table.i: braft/route_table.cpp.i
 
 # target to preprocess a source file
 braft/route_table.cpp.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/route_table.cpp.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/route_table.cpp.i
 .PHONY : braft/route_table.cpp.i
 
 braft/route_table.s: braft/route_table.cpp.s
@@ -1141,7 +1141,7 @@ braft/route_table.s: braft/route_table.cpp.s
 
 # target to generate assembly for a file
 braft/route_table.cpp.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/route_table.cpp.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/route_table.cpp.s
 .PHONY : braft/route_table.cpp.s
 
 braft/snapshot.o: braft/snapshot.cpp.o
@@ -1150,7 +1150,7 @@ braft/snapshot.o: braft/snapshot.cpp.o
 
 # target to build an object file
 braft/snapshot.cpp.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/snapshot.cpp.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/snapshot.cpp.o
 .PHONY : braft/snapshot.cpp.o
 
 braft/snapshot.i: braft/snapshot.cpp.i
@@ -1159,7 +1159,7 @@ braft/snapshot.i: braft/snapshot.cpp.i
 
 # target to preprocess a source file
 braft/snapshot.cpp.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/snapshot.cpp.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/snapshot.cpp.i
 .PHONY : braft/snapshot.cpp.i
 
 braft/snapshot.s: braft/snapshot.cpp.s
@@ -1168,7 +1168,7 @@ braft/snapshot.s: braft/snapshot.cpp.s
 
 # target to generate assembly for a file
 braft/snapshot.cpp.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/snapshot.cpp.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/snapshot.cpp.s
 .PHONY : braft/snapshot.cpp.s
 
 braft/snapshot_executor.o: braft/snapshot_executor.cpp.o
@@ -1177,7 +1177,7 @@ braft/snapshot_executor.o: braft/snapshot_executor.cpp.o
 
 # target to build an object file
 braft/snapshot_executor.cpp.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/snapshot_executor.cpp.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/snapshot_executor.cpp.o
 .PHONY : braft/snapshot_executor.cpp.o
 
 braft/snapshot_executor.i: braft/snapshot_executor.cpp.i
@@ -1186,7 +1186,7 @@ braft/snapshot_executor.i: braft/snapshot_executor.cpp.i
 
 # target to preprocess a source file
 braft/snapshot_executor.cpp.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/snapshot_executor.cpp.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/snapshot_executor.cpp.i
 .PHONY : braft/snapshot_executor.cpp.i
 
 braft/snapshot_executor.s: braft/snapshot_executor.cpp.s
@@ -1195,7 +1195,7 @@ braft/snapshot_executor.s: braft/snapshot_executor.cpp.s
 
 # target to generate assembly for a file
 braft/snapshot_executor.cpp.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/snapshot_executor.cpp.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/snapshot_executor.cpp.s
 .PHONY : braft/snapshot_executor.cpp.s
 
 braft/snapshot_throttle.o: braft/snapshot_throttle.cpp.o
@@ -1204,7 +1204,7 @@ braft/snapshot_throttle.o: braft/snapshot_throttle.cpp.o
 
 # target to build an object file
 braft/snapshot_throttle.cpp.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/snapshot_throttle.cpp.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/snapshot_throttle.cpp.o
 .PHONY : braft/snapshot_throttle.cpp.o
 
 braft/snapshot_throttle.i: braft/snapshot_throttle.cpp.i
@@ -1213,7 +1213,7 @@ braft/snapshot_throttle.i: braft/snapshot_throttle.cpp.i
 
 # target to preprocess a source file
 braft/snapshot_throttle.cpp.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/snapshot_throttle.cpp.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/snapshot_throttle.cpp.i
 .PHONY : braft/snapshot_throttle.cpp.i
 
 braft/snapshot_throttle.s: braft/snapshot_throttle.cpp.s
@@ -1222,7 +1222,7 @@ braft/snapshot_throttle.s: braft/snapshot_throttle.cpp.s
 
 # target to generate assembly for a file
 braft/snapshot_throttle.cpp.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/snapshot_throttle.cpp.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/snapshot_throttle.cpp.s
 .PHONY : braft/snapshot_throttle.cpp.s
 
 braft/storage.o: braft/storage.cpp.o
@@ -1231,7 +1231,7 @@ braft/storage.o: braft/storage.cpp.o
 
 # target to build an object file
 braft/storage.cpp.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/storage.cpp.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/storage.cpp.o
 .PHONY : braft/storage.cpp.o
 
 braft/storage.i: braft/storage.cpp.i
@@ -1240,7 +1240,7 @@ braft/storage.i: braft/storage.cpp.i
 
 # target to preprocess a source file
 braft/storage.cpp.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/storage.cpp.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/storage.cpp.i
 .PHONY : braft/storage.cpp.i
 
 braft/storage.s: braft/storage.cpp.s
@@ -1249,7 +1249,7 @@ braft/storage.s: braft/storage.cpp.s
 
 # target to generate assembly for a file
 braft/storage.cpp.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/storage.cpp.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/storage.cpp.s
 .PHONY : braft/storage.cpp.s
 
 braft/util.o: braft/util.cpp.o
@@ -1258,7 +1258,7 @@ braft/util.o: braft/util.cpp.o
 
 # target to build an object file
 braft/util.cpp.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/util.cpp.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/util.cpp.o
 .PHONY : braft/util.cpp.o
 
 braft/util.i: braft/util.cpp.i
@@ -1267,7 +1267,7 @@ braft/util.i: braft/util.cpp.i
 
 # target to preprocess a source file
 braft/util.cpp.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/util.cpp.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/util.cpp.i
 .PHONY : braft/util.cpp.i
 
 braft/util.s: braft/util.cpp.s
@@ -1276,7 +1276,7 @@ braft/util.s: braft/util.cpp.s
 
 # target to generate assembly for a file
 braft/util.cpp.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/util.cpp.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f src/CMakeFiles/OBJ_LIB.dir/build.make src/CMakeFiles/OBJ_LIB.dir/braft/util.cpp.s
 .PHONY : braft/util.cpp.s
 
 # Help Target
@@ -1425,6 +1425,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/agnes/Documents/braft/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/agnes/Documents/mybraft/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

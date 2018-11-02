@@ -1,2 +1,2 @@
 # Hashes of file build rules.
-7885a1f09c99dfacb759c07ffb997f7d counter.pb.cc
+e491b99367cb1620fdbad3bf974e6698 counter.pb.cc

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/agnes/Documents/braft
+CMAKE_SOURCE_DIR = /home/agnes/Documents/mybraft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/agnes/Documents/braft/build
+CMAKE_BINARY_DIR = /home/agnes/Documents/mybraft/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/agnes/Documents/braft/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/agnes/Documents/braft/build/CMakeFiles /home/agnes/Documents/braft/build/tools/CMakeFiles/progress.marks
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f CMakeFiles/Makefile2 tools/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/agnes/Documents/braft/build/CMakeFiles 0
+	cd /home/agnes/Documents/mybraft/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/agnes/Documents/mybraft/build/CMakeFiles /home/agnes/Documents/mybraft/build/tools/CMakeFiles/progress.marks
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f CMakeFiles/Makefile2 tools/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/agnes/Documents/mybraft/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f CMakeFiles/Makefile2 tools/clean
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f CMakeFiles/Makefile2 tools/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f CMakeFiles/Makefile2 tools/preinstall
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f CMakeFiles/Makefile2 tools/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f CMakeFiles/Makefile2 tools/preinstall
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f CMakeFiles/Makefile2 tools/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/agnes/Documents/braft/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/agnes/Documents/mybraft/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tools/CMakeFiles/braft_cli.dir/rule:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f CMakeFiles/Makefile2 tools/CMakeFiles/braft_cli.dir/rule
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f CMakeFiles/Makefile2 tools/CMakeFiles/braft_cli.dir/rule
 .PHONY : tools/CMakeFiles/braft_cli.dir/rule
 
 # Convenience name for target.
@@ -166,7 +166,7 @@ braft_cli: tools/CMakeFiles/braft_cli.dir/rule
 
 # fast build rule for target.
 braft_cli/fast:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f tools/CMakeFiles/braft_cli.dir/build.make tools/CMakeFiles/braft_cli.dir/build
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f tools/CMakeFiles/braft_cli.dir/build.make tools/CMakeFiles/braft_cli.dir/build
 .PHONY : braft_cli/fast
 
 braft_cli.o: braft_cli.cpp.o
@@ -175,7 +175,7 @@ braft_cli.o: braft_cli.cpp.o
 
 # target to build an object file
 braft_cli.cpp.o:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f tools/CMakeFiles/braft_cli.dir/build.make tools/CMakeFiles/braft_cli.dir/braft_cli.cpp.o
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f tools/CMakeFiles/braft_cli.dir/build.make tools/CMakeFiles/braft_cli.dir/braft_cli.cpp.o
 .PHONY : braft_cli.cpp.o
 
 braft_cli.i: braft_cli.cpp.i
@@ -184,7 +184,7 @@ braft_cli.i: braft_cli.cpp.i
 
 # target to preprocess a source file
 braft_cli.cpp.i:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f tools/CMakeFiles/braft_cli.dir/build.make tools/CMakeFiles/braft_cli.dir/braft_cli.cpp.i
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f tools/CMakeFiles/braft_cli.dir/build.make tools/CMakeFiles/braft_cli.dir/braft_cli.cpp.i
 .PHONY : braft_cli.cpp.i
 
 braft_cli.s: braft_cli.cpp.s
@@ -193,7 +193,7 @@ braft_cli.s: braft_cli.cpp.s
 
 # target to generate assembly for a file
 braft_cli.cpp.s:
-	cd /home/agnes/Documents/braft/build && $(MAKE) -f tools/CMakeFiles/braft_cli.dir/build.make tools/CMakeFiles/braft_cli.dir/braft_cli.cpp.s
+	cd /home/agnes/Documents/mybraft/build && $(MAKE) -f tools/CMakeFiles/braft_cli.dir/build.make tools/CMakeFiles/braft_cli.dir/braft_cli.cpp.s
 .PHONY : braft_cli.cpp.s
 
 # Help Target
@@ -223,6 +223,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/agnes/Documents/braft/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/agnes/Documents/mybraft/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

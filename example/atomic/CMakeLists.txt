@@ -108,7 +108,7 @@ else()
 endif()
 
 find_path(LEVELDB_INCLUDE_PATH NAMES leveldb/db.h)
-find_library(LEVELDB_LIB NAMES leveldb)
+find_library(LEVELDB_LIB NAMES leveldb HINTS /home/agnes/Documents/myleveldb-1.20/libleveldb.a)
 if ((NOT LEVELDB_INCLUDE_PATH) OR (NOT LEVELDB_LIB))
     message(FATAL_ERROR "Fail to find leveldb")
 endif()

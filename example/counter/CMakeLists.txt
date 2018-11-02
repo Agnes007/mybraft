@@ -9,7 +9,9 @@ execute_process(
     OUTPUT_VARIABLE OUTPUT_PATH
 )
 
-set(CMAKE_PREFIX_PATH ${OUTPUT_PATH})
+#set(CMAKE_PREFIX_PATH ${OUTPUT_PATH})
+set(CMAKE_PREFIX_PATH "/home/agnes/Documents/aaaa/myleveldb")
+message("PREFIX PATH: ${CMAKE_PREFIX_PATH}")
 
 include(FindThreads)
 include(FindProtobuf)
@@ -32,6 +34,8 @@ else()
     find_library(BRAFT_LIB NAMES libbraft.a braft)
 endif()
 
+message("BRPC LIB: ${BRPC_LIB}")
+
 if((NOT BRPC_INCLUDE_PATH) OR (NOT BRPC_LIB))
     message(FATAL_ERROR "Fail to find brpc")
 endif()
@@ -43,12 +47,17 @@ if ((NOT BRAFT_INCLUDE_PATH) OR (NOT BRAFT_LIB))
 endif()
 include_directories(${BRAFT_INCLUDE_PATH})
 
+
+message("BRAFT LIB: ${BRAFT_LIB}")
+
 find_path(GFLAGS_INCLUDE_PATH gflags/gflags.h)
 find_library(GFLAGS_LIBRARY NAMES gflags libgflags)
 if((NOT GFLAGS_INCLUDE_PATH) OR (NOT GFLAGS_LIBRARY))
     message(FATAL_ERROR "Fail to find gflags")
 endif()
 include_directories(${GFLAGS_INCLUDE_PATH})
+
+
 
 execute_process(
     COMMAND bash -c "grep \"namespace [_A-Za-z0-9]\\+ {\" ${GFLAGS_INCLUDE_PATH}/gflags/gflags_declare.h | head -1 | awk '{print $2}' | tr -d '\n'"
@@ -99,12 +108,16 @@ else()
     set(CMAKE_CXX_STANDARD_REQUIRED ON)
 endif()
 
+#HINTS /home/agnes/Documents/leveldb/build
 find_path(LEVELDB_INCLUDE_PATH NAMES leveldb/db.h)
-find_library(LEVELDB_LIB NAMES leveldb)
+find_library(LEVELDB_LIB NAMES leveldb )
+
 if ((NOT LEVELDB_INCLUDE_PATH) OR (NOT LEVELDB_LIB))
     message(FATAL_ERROR "Fail to find leveldb")
 endif()
 include_directories(${LEVELDB_INCLUDE_PATH})
+message("LevelDB LIB: ${LEVELDB_LIB}")
+message("LevelDB INCLUDE: ${LEVELDB_INCLUDE_PATH}")
 
 add_executable(counter_client client.cpp ${PROTO_SRC} ${PROTO_HEADER})
 add_executable(counter_server server.cpp ${PROTO_SRC} ${PROTO_HEADER})
@@ -122,7 +135,13 @@ set(DYNAMIC_LIB
     crypto
     dl
     z
+    snappy
+    pthread
+    memenv
+    rados
     )
+
+message("${DYNAMIC_LIB}")
 
 target_link_libraries(counter_client
                       "-Xlinker \"-(\""
